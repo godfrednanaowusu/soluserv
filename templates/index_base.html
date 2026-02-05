@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Soluserv (GH) Limited</title>
+    <link rel="icon" type="img/png" href="static/img/favicon.png" />
+
+    <!-- css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" integrity="sha512-t4GWSVZO1eC8BM339Xd7Uphw5s17a86tIZIj8qRxhnKub6WoyhnrxeCIMeAqBPgdZGlCcG2PrZjMc+Wr78+5Xg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    {% comment %} <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.0/font/bootstrap-icons.min.css" integrity="sha512-YFENbnqHbCRmJt5d+9lHimyEMt8LKSNTMLSaHjvsclnZGICeY/0KYEeiHwD1Ux4Tcao0h60tdcMv+0GljvWyHg==" crossorigin="anonymous" referrerpolicy="no-referrer" /> {% endcomment %}
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.1/css/lightgallery.min.css" integrity="sha512-F2E+YYE1gkt0T5TVajAslgDfTEUQKtlu4ralVq78ViNxhKXQLrgQLLie8u1tVdG2vWnB3ute4hcdbiBtvJQh0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/static/css/style.css" />
+  </head>
+
+  <body>
+    <header id="header" class="header fixed-top">
+      <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+        <i class="bi bi-list mobile-nav-toggle"></i>
+        <div class="d-flex">
+          <a href="{% url 'index' %}" class="logo d-flex align-items-center me-0 me-xl-4"> <img src="/static/img/Logo-white.png" alt> </a>
+          <nav id="navbar" class="navbar">
+            <ul>
+              <li><a href="{% url 'index' %}" class="nav-link scrollto {% if request.resolver_match.url_name == 'index' %}active{% endif %}">Home</a></li>
+              <li class="dropdown"><a href="" class="{% if request.resolver_match.url_name == 'who_we_are' or request.resolver_match.url_name == 'cop_structure' or request.resolver_match.url_name == 'experience' or request.resolver_match.url_name == 'qhse' or request.resolver_match.url_name == 'csr' %}active{% endif %}"><span>About</span> <i class="bi bi-chevron-down"></i></a>
+                <ul>
+                  <li><a href="{% url 'who_we_are' %}">Who We are</a></li>
+                  <li><a href="{% url 'cop_structure' %}">Corporate Structure</a></li>
+                  <li><a href="{% url 'experience' %}">Experience</a></li>
+                  <li class="dropdown"><a href="{% url 'qhse' %}"><span>QHSE</span> <i class="bi bi-chevron-right"></i></a>
+                    <ul>
+                      <li><a href="{% url 'qhse' %}#ims_policy">IMS Policy</a></li>
+                      <li><a href="{% url 'qhse' %}#esg_policy">ESG Policy</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="{% url 'csr' %}">CSR</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"><a href="" class="{% if request.resolver_match.url_name == '#engineering_drilling_services' or request.resolver_match.url_name == '#well_services_production_services' or request.resolver_match.url_name == '#oil_custody_transfer' or request.resolver_match.url_name == '#subsea_sampling_validation' or request.resolver_match.url_name == '#mining_lab_fabrication_services' %}active{% endif %}"><span>Services</span> <i class="bi bi-chevron-down"></i></a>
+                <ul>
+                  <li><a href="{% url 'services' %}#engineering_drilling_services">Well Engineering and Drilling Services</a></li>
+                  {% comment %} <li><a href="{% url 'services' %}#well_services_production_services">Well Services and Production Services</a></li> {% endcomment %}
+                  <li class="dropdown"><a href="{% url 'services' %}#well_services_production_services"><span>Well Services and Production Services</span> <i class="bi bi-chevron-right"></i></a>
+                    <ul>
+                      <li><a href="{% url 'services' %}#oil_custody_transfer">Oil Custody Transfer</a></li>
+                      <li><a href="{% url 'services' %}#subsea_sampling_validation">Subsea Sampling & Lab Services</a></li>
+                    </ul>
+                  </li>
+                  
+                  <li class="dropdown"><a href="{% url 'services' %}#mining_lab_fabrication_services"><span>Mining Lab Services & Fabrication</span> <i class="bi bi-chevron-right"></i></a>
+                    <ul>
+                      <li><a href="{% url 'services' %}#mining_lab_fabrication_services">Jv Partnership</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown"><a href="{% url 'services' %}#work_history"><span>Work History</span> <i class="bi bi-chevron-right"></i></a>
+                    <ul>
+                      <li><a href="{% url 'services' %}#work_history">Services Rendered</a></li>
+                    </ul>
+                  </li>
+
+                </ul>
+              </li>
+              <li><a href="{% url 'careers' %}" class="{% if request.resolver_match.url_name == 'careers' %}active{% endif %}">Careers</a></li>
+              <li><a href="{% url 'media' %}" class="{% if request.resolver_match.url_name == 'media' %}active{% endif %}">Media</a></li>
+              <li><a href="{% url 'contactus' %}" class="{% if request.resolver_match.url_name == 'contactus' %}active{% endif %}">Contact Us</a></li>
+            </ul>
+
+          </nav>          
+        </div>
+      </div>
+    </header>
+
+    <div class="" style="width: 100%; min-height: 100dvh;">
+      {% block content %} {% endblock %}
+    </div>
+
+    <section id="footer">
+
+      {% if messages %}
+        {% for message in messages %}
+                        <div class="row">
+                            <div class="col-12">
+                                {% if message.tags == 'success' %}
+                                    <div class="alert alert-success alert-dismissible fade show" role="alert" style="margin-bottom:5px;">
+                                      {{ message|safe }}
+                                      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                                    </div>
+                                {% elif message.tags == 'info' %}
+                                    <div class="alert alert-info alert-dismissible fade show" role="alert" style="margin-bottom:5px;">
+                                      {{ message|safe }}
+                                      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                                    </div>
+                                {% elif message.tags == 'error' %}
+                                    <div class="alert alert-danger alert-dismissible fade show" role="alert" style="margin-bottom:5px;">
+                                      {{ message|safe }}
+                                      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                                    </div>
+                                {% elif message.tags == 'warning' %}
+                                    <div class="alert alert-warning alert-dismissible fade show" role="alert" style="margin-bottom:5px;">
+                                      {{ message|safe }}
+                                      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                                    </div>
+                                {% endif %}
+                            </div>
+                        </div>
+          {% endfor %}              
+      {% endif %}
+      
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-12 col-md-6 col-xl-3 col_m">
+            <h3>office contact</h3>
+            <ul class="list-unstyled office-contact">
+              <li class="pb-5"><i class="mr-2 bi bi-geo-alt-fill"></i> No.6 Agbon Boi Street, Bubuashie</li>
+              <li class="pb-5"><i class="mr-2 bi bi-telephone-forward"></i> +233 030 222 8385</li>
+              <li class="pb-3"><i class="mr-2 bi bi-envelope-at"></i> info@soluservgh.com</li>
+            </ul>
+            <ul class="list-unstyled social-media">
+              <li><a class="small" target="_blank" href="https://gh.linkedin.com/in/ato-aidoo-6b0b447"><i class="fa-brands fa-linkedin-in"></i></a></li>
+              <li><a class="small" target="_blank" href="https://wawef.com/?speaker=ato-aidoo"><i class="bi bi-globe"></i></a></li>
+              <li><a class="small" target="_blank" href="https://x.com"><i class="bi bi-twitter-x"></i></a></li>
+              <li><a class="small" target="_blank" href="https://facebook.com"><i class="fa-brands fa-facebook-f"></i></a></li>
+              <li><a class="small" target="_blank" href="https://youtube.com"><i class="fa-brands fab fa-youtube"></i></a></li>
+              <li><a class="small" target="_blank" href="https://instagram.com"><i class="bi bi-instagram"></i></a></li>
+            </ul>
+          </div>
+          <div class="col-12 col-md-6 col-xl-3 col_m">
+            <h3>useful pages</h3>
+            <ul class="list-unstyled service-areas">
+              <li><i class="bi bi-chevron-right"></i> <a href="{% url 'who_we_are' %}" class="{% if request.resolver_match.url_name == 'whoweare' %}{% endif %}">about us</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="{% url 'services' %}" class="{% if request.resolver_match.url_name == 'services' %}active{% endif %}">services</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="{% url 'careers' %}" class="{% if request.resolver_match.url_name == 'careers' %}active{% endif %}">careers</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="{% url 'media' %}" class="{% if request.resolver_match.url_name == 'media' %}active{% endif %}">media</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="{% url 'contactus' %}" class="{% if request.resolver_match.url_name == 'contactus' %}active{% endif %}">contact us</a></li>
+            </ul>
+          </div>
+          <div class="col-12 col-md-6 col-xl-3 col_m">
+            <h3>service Areas</h3>
+            <ul class="list-unstyled service-areas">
+              <li><i class="bi bi-chevron-right"></i> <a href="{% url 'services' %}#engineering_drilling_services">Well Eng. and Drilling Services</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="{% url 'services' %}#well_services_production_services">Well Services and Prod. Services</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="{% url 'services' %}#oil_custody_transfer">Oil Custody Transfer</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="{% url 'services' %}#subsea_sampling_validation">Subsea Sampling & Lab Services</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="{% url 'services' %}#mining_lab_fabrication_services"><span>Mining Lab Services & Fabrication</a></li>
+              {% comment %} <li><i class="bi bi-chevron-right"></i> <a href="{% url 'services' %}">Shorebase & Logisics Mgt</a></li> {% endcomment %}
+            </ul>
+          </div>
+          <div class="col-12 col-md-6 col-xl-3 col_m">
+            <h3>Newsletter</h3>
+            <p>Subscribe to our Newsletter</p>
+            <div class="input-group mb-3">
+              <form class="d-flex flex-row w-100" method="post" action="{% url 'newsletter' %}">
+                {% csrf_token %}
+                <div class="input-group mb-3">
+                  <input type="email" name="email" id="email" class="form-control py-2" placeholder="Email Address" aria-label="Recipient's username" aria-describedby="button-addon2" required>
+                  <button class="btn btn-warning text-light" type="submit" id="button-addon2">Subscribe</button>
+                </div>      
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- java script -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.min.js" integrity="sha512-3dZ9wIrMMij8rOH7X3kLfXAzwtcHpuYpEgQg1OA4QAob1e81H8ntUQmQm3pBudqIoySO5j0tHN4ENzA6+n2r4w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js" integrity="sha512-gY25nC63ddE0LcLPhxUJGFxa2GoIyA5FLym4UJqHDEMHjp8RET6Zn/SHo1sltt3WuVtqfyxECP38/daUc/WVEA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.1/lightgallery.min.js" integrity="sha512-dSI4QnNeaXiNEjX2N8bkb16B7aMu/8SI5/rE6NIa3Hr/HnWUO+EAZpizN2JQJrXuvU7z0HTgpBVk/sfGd0oW+w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="/static/js/app.js"></script>
+  </body>
+</html>

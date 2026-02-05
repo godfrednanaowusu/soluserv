@@ -1,0 +1,408 @@
+@import "./variables";
+@import "./resets";
+@import "./mixin";
+@import "./navigation-footer";
+@import "./accessories.scss";
+@import "./buttons-forms.scss";
+
+#hero-section {
+  height: 80vh;
+  @include bg_img(url(../img/bg-img.jpg));
+  @include breakpoint(sm_lg) {
+    height: 60vh;
+  }
+
+  .content {
+    max-width: 750px;
+    color: $whiteColor;
+
+    h1 {
+      font-size: 60px;
+
+      @include breakpoint(md_lg) {
+        font-size: 45px;
+      }
+      @include breakpoint(sm_md) {
+        font-size: 35px;
+      }
+    }
+    p {
+      color: $whiteColor;
+      font-size: (18px);
+    }
+  }
+}
+
+#about {
+  ol {
+    padding-left: 15px;
+    li {
+      padding: 10px 0px;
+      font-size: 18px;
+    }
+  }
+  .cert {
+    @include breakpoint(xl_up) {
+      display: flex;
+      justify-content: flex-end;
+      img {
+        // width: 85%;
+        height: auto;
+      }
+    }
+  }
+}
+
+#services {
+  @include bg_img(url(../img/blue-bg.png));
+  color: $whiteColor;
+  p {
+    color: $whiteColor;
+  }
+  .main_content,
+  .sec_title {
+    position: relative;
+    z-index: 999;
+  }
+  .col_title {
+    letter-spacing: 1.5px;
+    // font-size: 20px;
+  }
+  .wrapper {
+    height: 100%;
+    background: $primaryColor_B;
+    border-radius: 50px;
+    transition: 0.5s ease-in-out;
+    &:hover {
+      .icon {
+        &::before {
+          background: $secondaryColor;
+          top: 0px;
+          right: -20px;
+        }
+        img {
+          transform: translateY(0);
+        }
+      }
+    }
+    .icon {
+      position: relative;
+      display: flex;
+      align-items: baseline;
+      width: 100px;
+      height: 100px;
+      img {
+        // position: relative;
+        width: 100px;
+        height: 100px;
+        z-index: 2;
+        transform: translateY(10px);
+        transition: 0.5s ease-in-out;
+      }
+      &::before {
+        position: absolute;
+        content: "";
+        height: 100px;
+        width: 100px;
+        background: #143459;
+        border-radius: 50px;
+        z-index: 1;
+        top: -8px;
+        right: -15px;
+        transition: 0.5s ease-in-out;
+      }
+    }
+
+    @include breakpoint(sm_lg) {
+      padding: 20px;
+      flex-direction: column;
+      .icon {
+        margin: 0px auto 30px;
+      }
+      .text {
+        text-align: center;
+      }
+    }
+
+    @include breakpoint(lg_up) {
+      flex-direction: row;
+      padding: 40px;
+      .icon {
+        margin: 20px 40px 0px 0px;
+      }
+      .text {
+        text-align: left;
+      }
+    }
+  }
+}
+
+#capabilities {
+  ul {
+    li {
+      font-weight: 900;
+      display: flex;
+      align-items: center;
+      padding-bottom: 20px;
+      font-size: 16px;
+      i {
+        margin-right: 15px;
+        font-size: 40px;
+        color: $secondaryColor;
+      }
+    }
+  }
+  .con {
+    img {
+      margin-bottom: 15px;
+    }
+    p {
+      text-align: center;
+      text-transform: uppercase;
+      font-weight: 900;
+    }
+    .primary_btn {
+      border-radius: 40px;
+    }
+  }
+}
+
+#partners {
+  background-color: rgb(199, 199, 199);
+  box-shadow: inset 0px 6px 24px 0px rgba(136, 136, 136, 0.579);
+  .sec_title,
+  .sec_des {
+    position: relative;
+    z-index: 99;
+  }
+  .wrapper {
+    background: #fff;
+    border-radius: 40px;
+    padding: 30px;
+
+    img {
+      align-items: center;
+      width: 200px;
+    }
+    .owl-dots {
+      display: none;
+    }
+  }
+}
+
+// About Page
+.about-bc {
+  @include bg_img(url(../img/about-Bc.png));
+}
+.who-we-are {
+  .sec-1 {
+    @include bg_img(url(../img/plain-bg.png));
+  }
+  .sec-2,
+  .sec-4 {
+    @include bg_img(url("../img/blue-bg-2.png"));
+  }
+  .sec-2 {
+    .sec_title {
+      color: $secondaryColor;
+      display: flex;
+      align-items: center;
+      i {
+        font-size: 20px;
+        margin-right: 10px;
+      }
+    }
+    p {
+      color: $whiteColor;
+      line-height: 1.6;
+      display: flex;
+      margin-bottom: 20px;
+      i {
+        margin-right: 10px;
+      }
+    }
+    li {
+      color: $whiteColor;
+      padding: 5px 0px;
+      font-size: 15px;
+    }
+  }
+
+  .sec-3 {
+    i {
+      margin-right: 10px;
+      font-size: 15px;
+    }
+    .sec_title {
+      color: $secondaryColor;
+      margin-bottom: 0px;
+      display: flex;
+      align-items: center;
+    }
+    p {
+      margin: 0px 0px 35px 22px;
+    }
+  }
+
+  .sec-4 {
+    p,
+    li {
+      color: $whiteColor;
+    }
+    li {
+      font-size: 15px;
+      padding-bottom: 20px;
+    }
+  }
+}
+
+#Esg-policy {
+  .sec_title {
+    i {
+      font-size: 25px !important;
+    }
+  }
+  li {
+    padding-bottom: 12px;
+    i {
+      color: $secondaryColor;
+    }
+  }
+  font-size: 18px;
+}
+
+// Careers
+.careers-bc {
+  @include bg_img(url(../img/careers-bc.png));
+}
+
+#careers {
+  h3,
+  .no-jobs h2 {
+    color: $primaryColor;
+  }
+  .no-jobs {
+    background: #c3c3c3;
+    padding: 30px 0px;
+    border-radius: 40px;
+  }
+  .jobs {
+    .job-title {
+      background-color: $primaryColor;
+      color: $whiteColor;
+      border-radius: 30px 30px 0px 0px;
+      padding: 20px 0px;
+      h2 {
+        letter-spacing: 1.5px;
+      }
+    }
+    .desc {
+      background-color: $primaryColor_B;
+      p {
+        color: $whiteColor;
+        i {
+          color: $secondaryColor;
+        }
+      }
+      border-radius: 0px 0px 30px 30px;
+      padding: 20px 20px 15px;
+    }
+  }
+}
+
+.contact .info-item {
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.08);
+  padding: 20px 0 30px 0;
+
+  & input {
+    height: 50px;
+  }
+}
+
+.contact .info-item i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 80px;
+  font-size: 40px;
+  line-height: 0;
+  color: $primaryColor;
+  border-radius: 50%;
+  border: 2px dotted $secondaryColor;
+}
+
+.contact .info-item h3 {
+  font-size: 20px;
+  color: #6c757d;
+  font-weight: 700;
+  margin: 10px 0;
+}
+
+.contact .info-item p {
+  padding: 0;
+  line-height: 24px;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+// Media
+.media-bc {
+  @include bg_img(url(../img/media-bc.png));
+}
+
+.gallery-item {
+  width: 200px;
+  padding: 5px;
+}
+
+.services {
+  .sec_title {
+    color: $secondaryColor;
+    display: flex;
+    align-items: center;
+    i {
+      font-size: 20px;
+      margin-right: 8px;
+    }
+  }
+  #jv-pat {
+    .sec_title {
+      color: $primaryColor;
+    }
+  }
+  #work-hist,
+  #Well-prod-serv {
+    @include bg_img(url("../img/blue-bg-2.png"));
+    p,
+    li {
+      color: $whiteColor;
+    }
+  }
+
+  .minLab-ser {
+    @include bg_img(url("../img/plain-bg.png"));
+    background-color: rgba(207, 207, 207, 0.685);
+  }
+
+  .Oil-serv {
+    .logo {
+      max-width: 300px;
+      margin: 0 auto 10px;
+    }
+    .sec_title {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+    .tools {
+      display: flex;
+      margin: 0 auto;
+    }
+  }
+}
+.media {
+  img {
+    border-radius: 10px;
+  }
+}

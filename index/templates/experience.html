@@ -1,0 +1,18 @@
+{% extends 'index_base.html' %}
+{% block title %}Experience{% endblock %}
+
+{% block content %}
+
+        <section class="bedcrump about-bc">
+            <h1 class="mt-5">about</h1>
+            <p class="primary_btn px-5">Experience</p>
+        </section>
+
+        <div class="container py-5">
+            {% for experience in experiences %}
+            <h3 class="sec_title text-center">{{experience.title}}</h3>
+            <p>{{experience.description|safe}}</p>
+            {% endfor %}
+        </div>
+    </section>
+{% endblock %}

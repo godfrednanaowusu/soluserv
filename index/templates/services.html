@@ -1,0 +1,29 @@
+{% extends 'index_base.html' %}
+{% block title %}Services{% endblock %}
+
+{% block content %}
+
+        <section class="bedcrump about-bc">
+            <h1 class="mt-5">Services</h1>
+        </section>
+
+        <div class="services">
+            {% for service in services %}
+            <section class="Oil-serv" id="{{service.unique_name}}" style="background:{{service.background_color|default:'white'}}; color:{{service.text_color|default:'black'}}">
+                <div class="container py-5">
+                    <h3 class="sec_title d-flex justify-content-center mb-4 ">{{service.title}}</h3>
+                    <p>{{service.summary|safe}}</p>  
+                    
+                    {% for media in service.media_service.all %}
+                        <img class="logo d-flex mx-auto" style="height: 80px;" src="/media/{{media.logo}}" alt="{{media.title}}"/>
+                        <p>{{media.content|safe}}</p>
+                        {% if media.image %}
+                        <img class="pb-5 d-flex mx-auto" src="/media/{{media.image}}" alt="{{media.title}}"/>
+                        {% endif %}
+                    {% endfor %}
+                </div>
+            </section>
+            {% endfor %}
+        </div>
+
+{% endblock %}

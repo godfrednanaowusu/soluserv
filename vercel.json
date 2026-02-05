@@ -1,0 +1,14 @@
+{
+  "builds": [
+    {
+      "src": "soluserv/wsgi.py",
+      "use": "@vercel/python"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "soluserv/wsgi.py"
+    }
+  ]
+}

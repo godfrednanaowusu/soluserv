@@ -1,0 +1,109 @@
+{% extends 'index_base.html' %}
+{% block title %}Contact Us{% endblock %}
+
+{% block content %}
+
+        <section class="bedcrump about-bc">
+            <h1 class="mt-5">Contact Us</h1>
+        </section>
+
+        <section class="contact">
+            <div class="container py-5">
+
+                <h3 class="sec_title text-center">Contact</h3>
+                <p class="sec_des">We will be happy to get in touch with you </p>
+
+                {% if messages %}
+        {% for message in messages %}
+                        <div class="row">
+                            <div class="col-12">
+                                {% if message.tags == 'success' %}
+                                    <div class="alert alert-success alert-dismissible fade show" role="alert" style="margin-bottom:5px;">
+                                      {{ message|safe }}
+                                      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                                    </div>
+                                {% elif message.tags == 'info' %}
+                                    <div class="alert alert-info alert-dismissible fade show" role="alert" style="margin-bottom:5px;">
+                                      {{ message|safe }}
+                                      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                                    </div>
+                                {% elif message.tags == 'error' %}
+                                    <div class="alert alert-danger alert-dismissible fade show" role="alert" style="margin-bottom:5px;">
+                                      {{ message|safe }}
+                                      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                                    </div>
+                                {% elif message.tags == 'warning' %}
+                                    <div class="alert alert-warning alert-dismissible fade show" role="alert" style="margin-bottom:5px;">
+                                      {{ message|safe }}
+                                      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                                    </div>
+                                {% endif %}
+                            </div>
+                        </div>
+          {% endfor %}              
+      {% endif %}
+
+                <div class="row py-4">
+                    <div class="col-lg-6 mb-4">
+                        <div class="info-item d-flex flex-column justify-content-center align-items-center h-100">
+                            <i class="bi bi-map"></i>
+                            <h3>Our Address</h3>
+                            <p> No.6 Agbon Boi Street, Accra-Ghana</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="info-item d-flex flex-column justify-content-center align-items-center h-100">
+                            <i class="bi bi-envelope"></i>
+                            <h3>Email Us</h3>
+                            <p>info@soluservgh.com</p>
+                            <p>Emmanuel.corquaye@soluservgh.com</p>
+                            <p>ato.aidoo@soluservgh.com </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="info-item d-flex flex-column justify-content-center align-items-center h-100">
+                            <i class="bi bi-telephone"></i>
+                            <h3>Call Us</h3>
+                            <p>Mob: +233 50 385 9880</p>
+                            <p>Tel: +233 030 222 8385</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="row gy-4 mt-1 ">
+
+                    <div class="col-lg-6 mb-4 d-flex align-items-center">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3970.9465289379364!2d-0.2401658852339923!3d5.574924195958126!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNcKwMzQnMjkuNyJOIDDCsDE0JzE2LjciVw!5e0!3m2!1sen!2sgh!4v1677588378185!5m2!1sen!2sgh" width="600" height="450" style="border:0;" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+
+                    <div class="col-lg-6 mb-4 ">
+                        <form class="info-item p-4" method="post" action="{% url 'contactus' %}">
+                            {% csrf_token %}
+                            <div class="row gy-4 ">
+                                <div class="col-lg-6 form-group">
+                                    <input type="text" name="full_name" class="form-control" id="full_name" placeholder="Full Name" aria-label="Full Name" aria-describedby="basic-addon2" required>
+                                </div>
+                                <div class="col-lg-6 form-group">
+                                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" aria-label="Email" aria-describedby="basic-addon2" required>
+                                </div>
+                            </div>
+                            <div class="form-group my-5">
+                                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" aria-label="First Name" aria-describedby="basic-addon2" required>
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+                            </div>
+
+                            <div class="text-center mt-4"><button class="primary_btn" type="submit">Send Message</button></div>
+                        </form>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+        
+{% endblock %}

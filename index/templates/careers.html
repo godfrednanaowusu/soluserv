@@ -1,0 +1,57 @@
+{% extends 'index_base.html' %} 
+{% block title %}Careers{% endblock %} 
+
+{% block content %}
+
+<section class="bedcrump careers-bc">
+  <h1 class="mt-5">careers</h1>
+</section>
+
+<div id="careers">
+  <section>
+    <div class="container py-5">
+      <h3 class="text-center mb-0">Job List</h3>
+      <p class="text-center">The most needed right now</p>
+    </div>
+  </section>
+
+  <section class="jobs">
+    <div class="container py-5">
+      <div class="row">
+        {% for career in careers %}
+        <div class="col-12 col-lg-4 col-md-6 col_m">
+          <div class="wrapper">
+            <div class="job-title">
+              <h2 class="text-center mb-0">{{career.job_title}}</h2>
+            </div>
+
+            <div class="desc">
+              <div class="desc-1 d-flex justify-content-between">
+                <p><i class="bi bi-clock-fill"></i> {{career.job_type}}</p>
+                <p><i class="bi bi-geo-alt-fill"></i>{{career.job_location}}</p>
+                <p>
+                  <i class="bi bi-people-fill"></i>{{career.experience_level}}
+                </p>
+              </div>
+              <p class="des-2">{{career.job_summary|safe}}</p>
+              <a
+                href="{% url 'career_details' identifier=career.identifier %}"
+                class="btn primary_btn apply_btn"
+                >Apply Now</a
+              >
+            </div>
+          </div>
+        </div>
+        {% empty %}
+        <div class="no-jobs mt-5">
+          <h2 class="text-center mb-0">
+            <i class="bi bi-exclamation-triangle"></i> Sorry! No Job Openings
+          </h2>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+</div>
+
+{% endblock %}

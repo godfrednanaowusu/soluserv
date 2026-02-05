@@ -1,0 +1,132 @@
+{% extends 'index_base.html' %}
+{% block title %}Home{% endblock %}
+
+{% block content %}
+
+    <section id="hero-section">
+      <div class="container d-flex align-items-center h-100">
+        <div class="content">
+          <h1>Welcome To <br> Soluserv (Gh) <br class="d-block d-md-none"> Limited</h1>
+          {% for index in indexes %}
+          <p class="my-md-4">{{index.summary|safe}}</p>
+          {% endfor %}
+          <a href="{% url 'who_we_are' %}" class="btn primary_btn">Learn more</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-12 col-lg-8">
+            <h3 class="sec_title">who we are</h3>
+            {% for wwah in wwahs %}
+            <p class="pe-lg-5 me-lg-5">{{wwah.summary|safe}}</p>
+            {% endfor %}
+            <h3 class="sec_title">Our mission</h3>
+            <p class=" pb-5 pe-lg-5 me-lg-5">Our mission is to become an industry leader in the provision of varied well operations & intervention services and well operations & engineering management by providing a cost effective, quality engineered solution to our clients.</p>
+
+            <h3 class="sec_title">Our Vision </h3>
+            <ol class="pe-lg-5 me-lg-5">
+              <li>As we aspire to be one of leading locally owned upstream oil and gas service provider in Ghana and the subregion, our goal is to endeavor to produce well trained, motivated and competent staff to deliver quality product and service.</li>
+              <li> Pursue and assure our objective of no harm to people and the environment.</li>
+            </ol>
+          </div>
+          <div class="col-12 col-lg-4 cert">
+            <img src="static/img/iso.png" alt class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services">
+      <div class="container py-5">
+        <h3 class="sec_title text-light text-center mb-5">services</h3>
+        <div class="row main_content">
+          {% for service in services %}
+          <div class="col-12 col-md-6 col-lg-12 col_m">
+            <div class="wrapper d-flex ">
+              <div class="icon">
+                <img src="/media/{{service.image}}" alt>
+              </div>
+              <div class="text">
+                <h5 class="col_title">{{service.title}} </h5>
+                <p>{{service.home_text|safe}}</p>
+                <a href="{% url 'services' %}#{{service.unique_name}}" class="btn primary_btn">Learn more</a>
+              </div>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </section>
+
+    <section id="capabilities">
+      <div class="container py-5">
+        <h3 class="sec_title mb-4 text-center">our capabilities</h3>
+        <p>Our staff has had involvement with a wide spectrum of offshore and onshore activities for major and independent operators and service companies. This enables us to develop a variety of services including:</p>
+        <ul class="list-unstyled">
+          {% for capability in capabilities %}
+          <li><i class="bi bi-patch-check"></i>{{capability.title}}</li>
+          {% endfor %}
+          {% comment %} <li><i class="bi bi-tools"></i> Provision of Oilfield Tools Rental as well as Workshop</li>
+          <li><i class="fa-regular fa-handshake"></i> Liaison with Governmental and Regulatory Bodies</li> {% endcomment %}
+        </ul>
+        <div class="row con">
+          <div class="col-12 col-md-6 col-lg-4 col_m">
+            <div class="wrapper">
+              <div class="img">
+                <img src="static/img/cap-1.jpg" alt class="img-fluid">
+              </div>
+              <p class="primary_btn">SUBSEA SAMPLING <br> VALIDATION</p>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 col_m">
+            <div class="wrapper">
+              <div class="img">
+                <img src="static/img/cap-2.jpg" alt class="img-fluid">
+              </div>
+              <p class="primary_btn">Quality Surveillance & Downhole Tool Inspection</p>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 col_m">
+            <div class="wrapper">
+              <div class="img">
+                <img src="static/img/cap-3.jpg" alt class="img-fluid">
+              </div>
+              <p class="primary_btn">OIL CUSTODY TRANSFER <br> INSPECTION</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <section id="partners">
+      <div class="container py-5">
+        <h3 class="sec_title text-center">Partners</h3>
+        <p class="sec_des">SOLUSERV (GH) LIMITED Has Agreements With</p>
+        <div class="row">
+          <div class="col-12">
+            <div class="wrapper">
+              <div class="owl-carousel  partners-slide">
+                {% for partner in partners %}
+                <div class="item">
+                  <a href="{{partner.website}}" target="_blank"><img src="/media/{{partner.logo}}" alt="{{partner.name}}"></a>
+                </div>
+                {% endfor %}
+                {% comment %} <div class="item"><img src="/static/img/pat-1.jpg" alt></div>
+                <div class="item"><a href="https://www.varel.com/"> <img class="mt-n2" src="/static/img/pat-2.jpg" alt></a></div>
+                <div class="item"><a href="https://www.wwtco.com/"><img src="/static/img/pat-3.jpg" alt></a></div>
+                <div class="item"><a href="https://www.stratumreservoir.com/"><img src="/static/img/pat-4.jpg" alt></a></div>
+                <div class="item"><a href="https://www.tendeka.com/"><img src="/static/img/pat-5.jpg" alt></a></div>
+                <div class="item"><a href="https://www.tendeka.com/"><img src="/static/img/pat-6.jpg" alt></a></div> {% endcomment %}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+{% endblock %}

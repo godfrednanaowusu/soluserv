@@ -1,0 +1,85 @@
+{% extends "index_base.html" %} 
+{% comment %} {% load static%} {% endcomment %}
+{% block title %}Career Details{% endblock %} 
+{% block description %}We are your outsource African agricultural technology company that focuses on cultivating large scale farms on behalf of organizations and individuals. We use mordern technology and work with existing farmers. Our business model ensures we work with professional outgrowers to build capacity and expand their farms while we grow for you in Africa.{% endblock %}
+
+{% block content %}
+
+<section class="bedcrump about-bc">
+  <h1 class="mt-5">Careers</h1>
+</section>
+
+<main id="main">
+  <section class="contact">
+    <div class="container py-5">
+
+      {% if messages %}
+        {% for message in messages %}
+                        <div class="row">
+                            <div class="col-12">
+                                {% if message.tags == 'success' %}
+                                    <div class="alert alert-success alert-dismissible fade show" role="alert" style="margin-bottom:5px;">
+                                      {{ message|safe }}
+                                      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                                    </div>
+                                {% elif message.tags == 'info' %}
+                                    <div class="alert alert-info alert-dismissible fade show" role="alert" style="margin-bottom:5px;">
+                                      {{ message|safe }}
+                                      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                                    </div>
+                                {% elif message.tags == 'error' %}
+                                    <div class="alert alert-danger alert-dismissible fade show" role="alert" style="margin-bottom:5px;">
+                                      {{ message|safe }}
+                                      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                                    </div>
+                                {% elif message.tags == 'warning' %}
+                                    <div class="alert alert-warning alert-dismissible fade show" role="alert" style="margin-bottom:5px;">
+                                      {{ message|safe }}
+                                      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                                    </div>
+                                {% endif %}
+                            </div>
+                        </div>
+          {% endfor %}              
+      {% endif %}
+      
+      <div class="row gy-4">
+        
+        <div class="col-12 col-lg-8 mb-4">
+          <div class="content pr-lg-4">
+            <p>{{career.job_requirement|safe}}</p>
+          </div>
+        </div>
+
+        <div class="col-12 col-lg-4 mb-4">
+          <h4 class="">Apply for this job</h4>
+            <form method="post" action="{% url 'career_details' identifier=career.identifier %}" enctype="multipart/form-data" class="w-100 py-4">
+              {% csrf_token %}
+              <div class="">
+                <input type="text" name="first_name" id="first_name" class="form-control" placeholder="First Name" aria-label="First Name" aria-describedby="basic-addon2" required>
+              </div>
+              <div class="my-4">
+                <input type="text" name="last_name" id="last_name" class="form-control" placeholder="Last Name" aria-label="Last Name" aria-describedby="basic-addon2" required>
+              </div>
+              <div class="my-4">
+                <input type="email" name="email" id="email" class="form-control" placeholder="Email" aria-label="Email" aria-describedby="basic-addon2" required>
+              </div>
+              <div class="my-4">
+                <input type="tel" name="phone" id="phone" class="form-control" placeholder="Phonenumber" aria-label="Phonenumber" aria-describedby="basic-addon2" required>
+              </div>
+              <div class="input-group mb-4">
+                <label class="input-group-text" for="file" style="cursor: pointer;">Attach docs</label>
+                  <input class="form-control" type="file" id="file" name="file" required accept="application/msword, application/pdf">
+              </div>
+              <div class="mb-4">
+                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+              </div>
+              <div class="text-center mt-4"><button class="primary_btn" type="submit">Submit</button></div>
+            </form>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+{% endblock %}

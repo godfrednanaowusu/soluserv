@@ -1,0 +1,50 @@
+{% extends 'index_base.html' %}
+{% block title %}Who We Are{% endblock %}
+
+{% block content %}
+
+        <section class="bedcrump about-bc">
+            <h1 class="mt-5">about</h1>
+        </section>
+
+        <div class="who-we-are">
+            <section class="sec-1">
+                <div class="container py-5">
+                    {% for wwaa in wwaas %}
+                    <h3 class="sec_title text-center">{{wwaa.title}}</h3>
+                    <p>{{wwaa.description|safe}}</p>
+                    {% endfor %}
+                </div>
+            </section>
+            <section class=" sec-2">
+                <div class="container py-5">
+                    {% for sevrend in sevrendz %}
+                    <h3 class="sec_title"><i class="bi bi-circle-fill"></i>{{sevrend.title}}</h3>
+                    <p class="fs-1">{{sevrend.description|safe}}</p>
+                    {% endfor %}
+                </div>
+            </section>
+            <section class=" sec-3">
+                <div class="container py-5">
+                    {% for parttext in parttexts %}
+                    <h3 class="sec_title "><i class="bi bi-circle-fill"></i>{{parttext.title}}</h3>
+                    <p>{{parttext.summary|safe}}</p>
+                    {% endfor %}
+                </div>
+            </section>
+            <section class=" sec-4">
+                <div class="container py-5">
+                    {% for product in productzs%}
+                    <h3 class="sec_title text-center text-white">{{product.title}}</h3>
+                    <p>SGL is in collaboration with the below international service providers for the provision of:
+                        <ul class="ml-4">
+                            <li>{{product.description|safe}}</li>
+                        </ul>
+                    </p>
+                    {% endfor %}
+                </div>
+            </section>
+
+        </div>
+
+{% endblock %}

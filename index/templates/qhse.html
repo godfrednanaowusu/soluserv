@@ -1,0 +1,31 @@
+{% extends 'index_base.html' %}
+{% block title %}QHSE{% endblock %}
+
+{% block content %}
+
+        <section class="bedcrump about-bc">
+            <h1 class="mt-5">about</h1>
+            <p class="primary_btn px-5">QHSE</p>
+        </section>
+
+        <div class="qhse services">
+            {% for category in categories %}
+            <section id="{{category.unique_name}}">
+                <div class="container py-5">                    
+                    <h3 class="sec_title">{{category.title}}</h3>
+                    {% for policy in category.category_policy.all %}
+                    <p>{{policy.content|safe}}</p>
+                    {% endfor %}                    
+            </section>
+            {% endfor %}
+            {% comment %} <section id="Esg-policy">
+                <div class="container py-5">
+                    <h3 class="sec_title"><i class="bi bi-circle-fill"></i> ENVIRONMENTAL SOCIAL AND GOVERNANCE POLICY</h3>
+                    {% for esg in esg %}
+                    <p>{{esg.description|safe}}</p>
+                    {% endfor %}
+                </div>
+            </section> {% endcomment %}
+        </div>
+
+{% endblock %}

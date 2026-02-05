@@ -1,0 +1,60 @@
+{% extends 'index_base.html' %}
+{% block title %}About Us{% endblock %}
+
+{% block content %}
+
+        <header id="header" class="container-fluid d-flex align-items-center fixed-top">
+            <div class="container-fluid container-xl d-flex  align-items-center justify-content-between">
+                <div class="navbar-toggle d-lg-none">
+                    <i class="bi bi-text-left text-light"></i>
+                </div>
+                <div class="d-flex ">
+
+                    <a href="index.html" class="logo me-lg-5"><img src="/static/img/Logo-white.png" alt></a>
+
+                    <nav class="navbar p-0">
+                        <ul class="navbar_nav">
+                            <li><a class="link" href="index.html">Home</a></li>
+                            <li class="dropdown"><a class="link">About <i class="bi bi-chevron-down"></i></a>
+                                <ul class="dropdown_menu">
+                                    <li><a class="link" href="#">Who We Are</a></li>
+                                    <li><a class="link" href="#">Corporate Structure</a></li>
+                                    <li><a class="link" href="#">Experience</a></li>
+                                    <li class="dropdown"><a class="link" href="#">QHSE <i class="bi bi-chevron-right"></i></a>
+                                        <ul class="dropdown-dropdown-menu">
+                                            <li><a href class="link">IMS Policy</a></li>
+                                            <li><a href class="link">ESG Policy</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown"><a class="link">Services <i class="bi bi-chevron-down"></i></a>
+                                <ul class="dropdown_menu">
+                                    <li><a class="link" href="#">Well Engineering and Drilling Services</a></li>
+                                    <li><a class="link" href="#">Well Services and Production </a></li>
+                                    <li><a class="link" href="#">Oil Custody Transfer</a></li>
+                                    <li><a class="link" href="#">Subsea Sampling & Lab Services</a></li>
+                                    <li class="dropdown"><a class="link" href="#">Mining Lab Services & Fabrication <i class="bi bi-chevron-right"></i></a>
+                                        <ul class="dropdown-dropdown-menu">
+                                            <li><a href="#" class="link">JV Partnership</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown"><a class="link" href=#>Work history <i class="bi bi-chevron-right"></i></a>
+                                        <ul class="dropdown-dropdown-menu">
+                                            <li><a href class="link">Service rendered</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li><a class="link" href="#">Careers</a></li>
+                            <li><a class="link" href="#">Media</a></li>
+                            <li><a class="link" href="#">Contact Us</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <i class="bi bi-search text-light"></i>
+            </div>
+        </header>
+
+{% endblock %}
