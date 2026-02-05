@@ -1,0 +1,1053 @@
+[
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$320000$nHEOwBJFRYCrJrIUMKBMY3$ZtzwdRTcHgcBCcOCPVLhQW35vb8ypLZQwn7FLtKJb94=",
+    "last_login": "2024-12-10T17:07:47.480Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2023-08-18T17:14:29.023Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$fkqLAx3vOikGTAN29Ezuv3$TEXV9t5fC2z69Q616ho/aKNEHT+u+AQfxRiM+MsPwPE=",
+    "last_login": null,
+    "is_superuser": true,
+    "username": "admin@soluservgh.om",
+    "first_name": "",
+    "last_name": "",
+    "email": "admin@soluservgh.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2026-02-05T19:07:14.163Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$EIS7Hu5mhOsX0Mr8Fkshqi$OLoYVv/0Vac/lueuV1sjPunuv1KLB7cNB2Duc2gqc1U=",
+    "last_login": "2026-02-05T19:09:07.130Z",
+    "is_superuser": true,
+    "username": "admin@soluserv.com",
+    "first_name": "",
+    "last_name": "",
+    "email": "admin@soluserv.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2026-02-05T19:08:55.183Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "index.index",
+  "pk": 1,
+  "fields": {
+    "summary": "<div>\r\n<div>We are the company to talk to when it comes to Well Engineering and Drilling &amp; Completions related Services</div>\r\n</div>",
+    "created": "2023-09-13T15:20:30Z"
+  }
+},
+{
+  "model": "index.whowearehome",
+  "pk": 2,
+  "fields": {
+    "summary": "<p>SOLUSERV (GH) LIMITED is a 100% locally owned Ghanaian Company. We are registered with the Ghana Petroleum Commission to provide services to the Oil and Gas sector in Ghana. The company has built capacity through the development of a robust Well Operations Management System, Safety Management System and Quality Control and Assurance System. The company&rsquo;s management systems and procedures have been audited and an Integrated Management System Certification, (ISO 9001: 2015 for Quality Management System; ISO 14001:2015 for Environmental Management System; and ISO 45001:2018 for Occupational Health &amp; Safety System) has been issued to guide its operations.</p>",
+    "created": "2023-08-24T19:00:36.635Z"
+  }
+},
+{
+  "model": "index.partner",
+  "pk": 1,
+  "fields": {
+    "name": "Downhole Products",
+    "logo": "partners_images/pat-1_CjJN0wi.jpg",
+    "website": "https://www.varel.com",
+    "created": "2023-08-24T20:02:09Z"
+  }
+},
+{
+  "model": "index.partner",
+  "pk": 2,
+  "fields": {
+    "name": "Varel",
+    "logo": "partners_images/pat-2.jpg",
+    "website": "https://www.varel.com",
+    "created": "2023-08-24T20:21:48Z"
+  }
+},
+{
+  "model": "index.partner",
+  "pk": 3,
+  "fields": {
+    "name": "wwt international",
+    "logo": "partners_images/pat-3.jpg",
+    "website": "https://www.wwtco.com",
+    "created": "2023-08-24T20:23:57Z"
+  }
+},
+{
+  "model": "index.partner",
+  "pk": 4,
+  "fields": {
+    "name": "stratum",
+    "logo": "partners_images/pat-4.jpg",
+    "website": "https://www.stratumreservoir.com",
+    "created": "2023-08-24T20:24:34Z"
+  }
+},
+{
+  "model": "index.partner",
+  "pk": 5,
+  "fields": {
+    "name": "tendeka",
+    "logo": "partners_images/pat-5.jpg",
+    "website": "https://www.tendeka.com",
+    "created": "2023-08-24T20:25:06Z"
+  }
+},
+{
+  "model": "index.partner",
+  "pk": 6,
+  "fields": {
+    "name": "sdgs",
+    "logo": "partners_images/pat-6.jpg",
+    "website": "https://www.sgs.com/en-gh",
+    "created": "2023-08-24T20:25:37Z"
+  }
+},
+{
+  "model": "index.whoweareabout",
+  "pk": 6,
+  "fields": {
+    "title": "DESCRIPTION AND EXPERIENCE OF TEAM",
+    "description": "<p>The current SOLUSERV (GH) LIMITED management, with one working director, and two support directors as well as a highly experienced team of permanent and temporary + ad hoc staff are able to offer round the clock response to clients’ requirements.  \r\nThe company is led by qualified and experienced well operations and engineering professionals with the requisite skills to suit the modern, demanding and highly technical Oil & Gas Industry.\r\nOur know-how has been gained through intensive training and experience with Major Operators as wells as Major Service Companies operating in the North Sea, North Africa, West Africa and Countries of the Former Soviet Union including Russia and Kazakhstan.\r\nThe company has built capacity, with the development of a robust Well Operations Management System, Safety Management System and Quality Control and Assurance System\r\n</p>\r\n<p>Our personnel have had involvement with a wide spectrum of offshore (deepwater activities inclusive) and onshore activities for major independent operators and service companies. This has enabled us to be able to develop a variety of services including: <p>\r\n•\tProject Management<p>\r\n•\tManagement of Offshore and Onshore Well Engineering and Operations<p>\r\n•\tLiaison with Governmental and Regulatory bodies, Ghana National Petroleum Corporation, Ministry of Energy, Ministry of Environment, Science and Technology, Ministry of Health, Ghana Atomic Energy Commission etc.<p>\r\n</p>\r\n\r\n<p>Drilling Engineering is one of our core businesses, with core competencies in:<p>\r\n•\tWell Operations Management, both office and rig-site based, with extensive experience in the North Sea, North Africa, Former Soviet Union and other international locations.<p>\r\n•\tWell Planning and Design assisted by a variety of industry recognised planning software.<p>\r\n•\tComplex Well Planning; including ERD, Deep and Ultra-deep well planning, Multi-Lateral, Slimhole and Thru-Tubing, and wells with high H2S and high CO2 (Risk Assessment, HAZID, QRA, Peer-Assist and Engineering Design)<p>\r\n•\tPreparation of detailed Well Operations documents i.e. well operations manuals, recommended practices, drilling programmes, detailed procedure for drilling operations, etc.<p>\r\n•\tWell Engineering Design, casing design, well profile generation for cost effective design, drilling hydraulics optimisation etc.<p>\r\n•\tQuantitative Risk Assessment and Analysis (QRA) applications to Well Planning AFE Preparation and Implementation.  Tie-In with Risk Assessment and HAZID.<p>\r\n•\tDrilling Cuttings Re-Injection (CRI) Feasibility, Geomechanical Modelling, Well Engineering, Equipment installation and Process Implementation.\r\n</p>\r\n<p>•\tSoluserv provides Well Integrity Management, including Well Examination Services as an Independent Competent auditor.<p>\r\n•\tSoluserv provides an independent, knowledgeable and practical technical input to review processes, and ensuring that the objectives of the procedure are achieved. This involves Quantitative risk assessment (QRA) and uses fault tree analysis (FTA) and failure mode effect and criticality analysis (FMECA).<p>\r\n•\tSoluserv provides “Peer-Reviewed” and “Peer-Assisted” engineering solutions to the drilling industry.<p>\r\n•\tSoluserv provides the “PEER-ASSIST” process – providing experienced assistance at all stages, giving assistance to optimise the well design, planning and rig operations.<p>\r\n•\tSoluserv provides contract or consultancy drilling and well servicing manpower. The service is specifically adapted to meet the needs of the independent contractor, as well as those of the client.  Provision of marine & engineering staff in both onshore and offshore support to various offshore construction and development projects.  Integrity and reliability is our aim.<p>\r\n•\tSoluserv can provide quality engineering, using an array of industry recognised software.<p>\r\n•\tSoluserv can undertake complete Wells Project Management right from conception through to detailed design, QRA budgeting exercises, programming and operations supervision for offshore and onshore operations.<p>\r\n•\tDrilling rig inspection services and selection<p>\r\n•\tDrilling equipment inspection services including tubular and surface equipment NDT etc.<p>\r\n•\tProvision of navigation services<p>\r\n•\tTechnical and Operational Documentation<p>\r\n</p>\r\n<p>Soluserv currently provides fabrication works and services to the mining industry in Ghana, from our base in Sekondi. The provision of oilfield tools rental as well as workshop, welding and inspection services forms part of the company’s future plans.  Soluserv has acquired 4.31 acres of land, currently under development, at Shama, 20minutes drive from Takoradi for this purpose.  \r\n</p>",
+    "created": "2023-09-13T15:41:26Z"
+  }
+},
+{
+  "model": "index.qhsecategory",
+  "pk": 1,
+  "fields": {
+    "title": "IMS POLICY",
+    "unique_name": "ims_policy",
+    "created": "2023-09-13T16:29:07Z"
+  }
+},
+{
+  "model": "index.qhsecategory",
+  "pk": 2,
+  "fields": {
+    "title": "ENVIRONMENTAL SOCIAL AND GOVERNANCE POLICY",
+    "unique_name": "esg_policy",
+    "created": "2023-09-13T16:29:24Z"
+  }
+},
+{
+  "model": "index.qhse",
+  "pk": 1,
+  "fields": {
+    "category": 1,
+    "content": "<p><strong>SOLUSERV (GH) LIMITED</strong>&nbsp;is fully committed to expediently and pro-actively managing Environmental Protection, Health and Safety. This Policy applies to:</p>\r\n<ul class=\"list-unstyled mb-3\">\r\n<li>&nbsp;All assets owned and operated by&nbsp;<strong>SOLUSERV (GH) LIMITED</strong>&nbsp;;</li>\r\n<li>&nbsp;All persons working or operating for or on behalf of&nbsp;<strong>SOLUSERV (GH) LIMITED</strong>&nbsp;including contractors and visitors.</li>\r\n</ul>\r\n<p>The management of&nbsp;<strong>SOLUSERV (GH) LIMITED</strong>&nbsp;is committed to providing a safe workplace for employees and contractors, through the implementation of standards and control that continuously improve the application and performance of the safety management system.</p>\r\n<p><strong>SOLUSERV (GH) LIMITED</strong>&nbsp;provides the oil and gas industry with engineering support, equipment, technology, services and systems which help to protect, preserve and sustain the entire environment around us.&nbsp;<strong>SOLUSERV (GH) LIMITED</strong>&nbsp;activities are planned and performed to minimize environmental discharges and to comply with legislative and contractual requirements.</p>\r\n<p><strong>SOLUSERV (GH) LIMITED</strong>&nbsp;has as part of its business:</p>\r\n<ul class=\"list-unstyled\">\r\n<li>&nbsp;Set Health, Safety and Environment as a core value for all business activities;\r\n<ul class=\"list-unstyled ml-4\">\r\n<li>-- Assessment of environmental effects before, during and after commencement of all operations.</li>\r\n<li>-- Measurement and reduction of emissions detrimental to the environment.</li>\r\n<li>-- Taking measures to prevent environmental incidents, plan and prepare responses for the minimization of loss should any incidents occur.</li>\r\n<li>-- Regular review of management performance for continuous improvement and reduction of our impact upon the environment.</li>\r\n<li>-- Conservation of resources through where possible, the recycling, reuse and recovery of materials and resources.</li>\r\n</ul>\r\n</li>\r\n<li>&nbsp;Comply with all relevant Ghana legislation, regulations and other requirements to which&nbsp;<strong>SOLUSERV (GH) LIMITED</strong>&nbsp;subscribes;</li>\r\n<li>&nbsp;Implement safe working and fitness to work programmes to pursue the goals of no harm to the health or injury to people, no damage to the environment and business assets;</li>\r\n<li>&nbsp;Minimize adverse impacts on the environment, reduce our Greenhouse Gas Emissions and safeguard natural resources, through the application of Best Available Techniques</li>\r\n<li>&nbsp;Assess, and manage EH&amp;S risks across the life-cycle for each business activity</li>\r\n<li>&nbsp;Ensure that sufficient resources are in place to manage EH&amp;S in accordance with this Policy, provide appropriate training to all personnel and include EH&amp;S performance in appraisal of staff and contractors; communicate and engage with key stakeholders, employees and contractors on relevant environmental matters</li>\r\n<li>&nbsp;Play a leading role in promoting best EH&amp;S practice which will contribute to sustainable development in the Republic of Ghana.</li>\r\n</ul>\r\n<p><strong>SOLUSERV (GH) LIMITED</strong>&nbsp;expects that everyone recognizes their personal responsibility for EH&amp;S and their right to report openly any EH&amp;S issue of concern. In addition everyone is encouraged to intervene in the case of unsafe acts or conditions and polluting circumstances. To ensure we meet these objectives,&nbsp;<strong>SOLUSERV (GH) LIMITED</strong>&nbsp;will consult with, listen to and respond openly to our employees, contractors, regulators, customers, local communities and other stakeholders.</p>\r\n<p>Responsibility for establishing and implementing this EH&amp;S Policy rests with the Managing Director of&nbsp;<strong>SOLUSERV (GH) LIMITED</strong>.</p>",
+    "created": "2023-09-13T16:29:41Z"
+  }
+},
+{
+  "model": "index.qhse",
+  "pk": 2,
+  "fields": {
+    "category": 2,
+    "content": "<p>As a 100% locally owned Ghanaian Oil and Gas Service Company, whose personnel, associates and shareholders have International and other African experience, Soluserv (GH) Limited (SGL) recognizes the importance of Environmental Social and Governance (ESG) commitment to our success in the oilfield industry.</p>\r\n<p>The (ESG) policy is a strategic framework to identify hazards and opportunities for improvement for a safe working culture. The objective is to assess and address challenges in organizational goals and activities.</p>\r\n<p>SGL is strongly committed to the highest standards of products and service(s) quality, employee safety in the workplace, employee health and the prevention of damage to the environment at our premises, facilities, those of our clients and societies in which we perform operations. SGL is oriented towards achieving these goals openly and transparently by adhering to the QHSE management and risk assessment fundamentals. It also ensures customer satisfaction in compliance with the laws and regulations of Ghana.</p>\r\n<p>SGL ensures the engineering support, equipment rental and sales, technology, services and systems provided, helps to protect, preserve and sustain the entire environment around us. It also ensures all activities are planned and performed to minimize environmental discharges and to comply with legislative and contractual requirements.</p>\r\n<p>SGL ensures the products and services provided by the international service companies we collaborated with, are reliable and can stand the test of time.</p>\r\n<p>SGL is committed to training all its employees and ensure professional and managerial skills and motivation and compliance with the ethical principles established in the SGL ESG policy.</p>\r\n<p>The policy helps stakeholders understand how our organization manages risks and opportunities related to Environmental, Social, and Governance to attain the below ultimate benefits for business sustainability.</p>\r\n<p style=\"padding-left: 40px;\">-- Create business value.</p>\r\n<p style=\"padding-left: 40px;\">-- Meet the needs of our customers.</p>\r\n<p style=\"padding-left: 40px;\">-- Meet investor demand.</p>\r\n<p style=\"padding-left: 40px;\">-- Attract and engage top talent.</p>\r\n<p style=\"padding-left: 40px;\">-- Slash business costs.</p>\r\n<p style=\"padding-left: 40px;\">-- Improve a brand&rsquo;s reputation.</p>\r\n<p style=\"padding-left: 40px;\">-- Leverage new opportunities.</p>",
+    "created": "2023-09-13T16:30:30Z"
+  }
+},
+{
+  "model": "index.csr",
+  "pk": 4,
+  "fields": {
+    "title": "SOCIAL DEVELOPMENT PROGRAMME",
+    "description": "<p>SOLUSERV (GH) LIMITED has always participated in all activities organized by the Society of Petroleum Engineers in Ghana. SOLUSERV (GH) LIMITED is committed to the development of the society and will continue to contribute its quota whenever it is called upon to do so. We shall also develop a program for the development of any section of the society that we shall find ourselves related to. Social programmes for general developments of the Ghanaian society at large shall be part of the mandate of our corporate policy. Programmes for implementation of our social developments policy shall be reviewed on yearly basis.</p>",
+    "created": "2023-09-15T13:40:29Z"
+  }
+},
+{
+  "model": "index.csrmedia",
+  "pk": 5,
+  "fields": {
+    "category": 4,
+    "image": "csr_images/Blog-6.jpg",
+    "created": "2024-12-05T11:34:14Z"
+  }
+},
+{
+  "model": "index.csrmedia",
+  "pk": 8,
+  "fields": {
+    "category": 4,
+    "image": "csr_images/Corproate_Social_Responsibility.webp",
+    "created": "2024-12-05T11:38:34Z"
+  }
+},
+{
+  "model": "index.services",
+  "pk": 1,
+  "fields": {
+    "title": "WELL ENGINEERING & DRILLING SERVICES",
+    "home_text": "SOLUSERV (GH) LIMITED provide Well Engineering and Drilling related Services",
+    "summary": "<p>SOLUSERV (GH) LIMITED has two areas of operation. These are Drilling, Completions and Production Engineering Services and Drilling and Completions Equipment Sales and Rentals Services.</p>\r\n<p>Our personnel have extensive experience in</p>\r\n<p>&nbsp; &nbsp; -- Conceptual, Front End Engineering Design (FEED) and Operational Engineering.</p>\r\n<p>&nbsp; &nbsp; -- Well Planning and Design assisted by a variety of industry recognized planning software including Landmark Drilling Engineering suite &ndash; Wellplan; StressCheck; Casing Seat and Wellcat;</p>\r\n<p>&nbsp; &nbsp; -- Complex Well Planning including: ERD; Managed Pressure Drilling; HPHT; Deep and Ultra-deep well planning, Multi-Lateral, Slimhole and Thru-Tubing, and wells with high H2S and high CO2</p>\r\n<p>&nbsp; &nbsp; -- Advanced Casing Design; Drillstring Design and Optimization.</p>\r\n<p>&nbsp; &nbsp; -- Risk Assessment, HAZID, Peer-Assist and Quantitative Risk Assessment and Analysis (QRA) applications to Well Planning AFE Preparation and Implementation.</p>\r\n<p>&nbsp; &nbsp; -- Drilling Cuttings Re-Injection (CRI) Feasibility, Geomechanical Modelling, Well Engineering, Equipment installation and Process Implementation.</p>\r\n<p>We also provides &ldquo;Peer-Reviewed&rdquo; and &ldquo;Peer-Assisted&rdquo; engineering solutions &ndash; providing experienced assistance at all stages, giving assistance to optimize the well design, planning and rig operations.</p>\r\n<p>SOLUSERV (GH) LIMITED, using in-house personnel can manage all aspects of organizing drilling and field development operations and project management.<br /><br />We provide expertise in</p>\r\n<ul>\r\n<li>Our personnel have extensive experience in</li>\r\n</ul>\r\n<ul class=\"list-unstyled \">\r\n<li>&nbsp; &nbsp;-- Well Planning and Design assisted by a variety of industry recognized planning software including Landmark Drilling Engineering suite &ndash; Wellplan; StressCheck; Casing Seat and Wellcat;</li>\r\n</ul>\r\n<ul class=\"list-unstyled \">\r\n<li>&nbsp; &nbsp;-- Complex Well Planning including: ERD; Managed Pressure Drilling; HPHT; Deep and Ultra-deep well planning, Multi-Lateral, Slimhole and Thru-Tubing, and wells with high H2S and high CO2</li>\r\n</ul>\r\n<ul class=\"list-unstyled \">\r\n<li>&nbsp; &nbsp;-- Advanced Casing Design; Drillstring Design and Optimization.</li>\r\n</ul>\r\n<ul class=\"list-unstyled \">\r\n<li>&nbsp; &nbsp;-- Risk Assessment, HAZID, Peer-Assist and Quantitative Risk Assessment and Analysis (QRA) applications to Well Planning AFE Preparation and Implementation.</li>\r\n</ul>\r\n<ul class=\"list-unstyled \">\r\n<li>&nbsp; &nbsp;-- Drilling Cuttings Re-Injection (CRI) Feasibility, Geomechanical Modelling, Well Engineering, Equipment installation and Process Implementation.</li>\r\n</ul>\r\n<ul>\r\n<li>We also provides &ldquo;Peer-Reviewed&rdquo; and &ldquo;Peer-Assisted&rdquo; engineering solutions &ndash; providing experienced assistance at all stages, giving assistance to optimize the well design, planning and rig operations.</li>\r\n</ul>\r\n<p>SOLUSERV (GH) LIMITED is able to provide contract or consultancy drilling and well servicing manpower. The service is specifically adapted to meet the needs of the independent contractor, as well as those of the client. Provision of marine &amp; engineering staff in both onshore and offshore support to various offshore construction and development projects. Integrity and reliability is our aim.<br /><br />Our personnel functions are both office and rig-site based, with extensive experience in the North Sea, North Africa, Former Soviet Union and other international locations.</p>",
+    "image": "gallery_images/oil-platform_dbUPPKp.png",
+    "unique_name": "engeneering_drilling_services",
+    "background_color": null,
+    "text_color": null,
+    "order_id": 0,
+    "featured": true,
+    "created": "2023-08-24T19:00:36Z"
+  }
+},
+{
+  "model": "index.services",
+  "pk": 2,
+  "fields": {
+    "title": "WELL SERVICES & PRODUCTION SERVICES",
+    "home_text": "SOLUSERV (GH) LIMITED provide Well Services, Well Integrity & Intervention and Production Related Services",
+    "summary": "",
+    "image": "gallery_images/settings_mnfUiJp.png",
+    "unique_name": "well_services_production_services",
+    "background_color": "#0a315e",
+    "text_color": "#ffffff",
+    "order_id": 0,
+    "featured": false,
+    "created": "2023-08-24T19:00:36Z"
+  }
+},
+{
+  "model": "index.services",
+  "pk": 3,
+  "fields": {
+    "title": "OIL CUSTODY TRANSFER",
+    "home_text": "SOLUSERV (GH) LIMITED provide Well Integrity Management, including Well Examination Services as an Independent Competent auditor.",
+    "summary": "<p>Custody Transfer in the oil and gas industry refers to the transactions involving transporting physical substance from one operator to another. This includes the transferring of raw and refined petroleum between tanks and railway tank cars; onto ships, and other transactions.</p>",
+    "image": "gallery_images/Inspect_GmvaGkK.png",
+    "unique_name": "oil_custody_transfer",
+    "background_color": null,
+    "text_color": null,
+    "order_id": 0,
+    "featured": true,
+    "created": "2023-08-24T19:00:36Z"
+  }
+},
+{
+  "model": "index.services",
+  "pk": 4,
+  "fields": {
+    "title": "SUBSEA SAMPLING VALIDATION",
+    "home_text": "Drilling Engineering is one of our core businesses, with core competencies in subsea sampling validation",
+    "summary": "<p>SOLUSERV (GH) LIMITED, using in-house personnel can manage all aspects of organizing drilling and field development operations and project management.<br /><br />We provide expertise in</p>\r\n<ul>\r\n<li>Our personnel have extensive experience in</li>\r\n</ul>\r\n<ul class=\"list-unstyled \">\r\n<li>&nbsp; &nbsp;-- Well Planning and Design assisted by a variety of industry recognized planning software including Landmark Drilling Engineering suite &ndash; Wellplan; StressCheck; Casing Seat and Wellcat;</li>\r\n</ul>\r\n<ul class=\"list-unstyled \">\r\n<li>&nbsp; &nbsp;-- Complex Well Planning including: ERD; Managed Pressure Drilling; HPHT; Deep and Ultra-deep well planning, Multi-Lateral, Slimhole and Thru-Tubing, and wells with high H2S and high CO2</li>\r\n</ul>\r\n<ul class=\"list-unstyled \">\r\n<li>&nbsp; &nbsp;-- Advanced Casing Design; Drillstring Design and Optimization.</li>\r\n</ul>\r\n<ul class=\"list-unstyled \">\r\n<li>&nbsp; &nbsp;-- Risk Assessment, HAZID, Peer-Assist and Quantitative Risk Assessment and Analysis (QRA) applications to Well Planning AFE Preparation and Implementation.</li>\r\n</ul>\r\n<ul class=\"list-unstyled \">\r\n<li>&nbsp; &nbsp;-- Drilling Cuttings Re-Injection (CRI) Feasibility, Geomechanical Modelling, Well Engineering, Equipment installation and Process Implementation.</li>\r\n</ul>\r\n<ul>\r\n<li>We also provides &ldquo;Peer-Reviewed&rdquo; and &ldquo;Peer-Assisted&rdquo; engineering solutions &ndash; providing experienced assistance at all stages, giving assistance to optimize the well design, planning and rig operations.</li>\r\n</ul>\r\n<p>SOLUSERV (GH) LIMITED is able to provide contract or consultancy drilling and well servicing manpower. The service is specifically adapted to meet the needs of the independent contractor, as well as those of the client. Provision of marine &amp; engineering staff in both onshore and offshore support to various offshore construction and development projects. Integrity and reliability is our aim.<br /><br />Our personnel functions are both office and rig-site based, with extensive experience in the North Sea, North Africa, Former Soviet Union and other international locations.</p>",
+    "image": "gallery_images/drafting-compass_xgRpDKy.png",
+    "unique_name": "subsea_sampling_validation",
+    "background_color": "#0a315e",
+    "text_color": "#ffffff",
+    "order_id": 0,
+    "featured": true,
+    "created": "2023-08-24T19:00:36Z"
+  }
+},
+{
+  "model": "index.services",
+  "pk": 5,
+  "fields": {
+    "title": "LABORATORY SERVICES & FABRICATION AT THE MINES",
+    "home_text": "The provision of oilfield tools rental as well as workshop, machining, welding and inspection services forms part of the company’s future plans.",
+    "summary": "<ul style=\"list-style-type: circle;\">\r\n<li>\r\n<h2><strong>Joint Ventures</strong></h2>\r\n</li>\r\n</ul>\r\n<p>Soluserv (GH) Ltd. is in a Joint Venture (JV) partnership with SGS Ghana Limited (SGS Soluserv limited) to provide laboratory analytical services of samples, minerals services and environmental sampling support to the Mining sector in Ghana. The JV also provides technical support with regards to other types of environmental samples such as soil, noise, vegetation, agricultural crops, fish and air quality monitoring filters.</p>",
+    "image": "gallery_images/helmet_hBlRthX.png",
+    "unique_name": "mining_lab_fabrication_services",
+    "background_color": "#dedede",
+    "text_color": null,
+    "order_id": 0,
+    "featured": true,
+    "created": "2023-08-24T19:00:36Z"
+  }
+},
+{
+  "model": "index.services",
+  "pk": 6,
+  "fields": {
+    "title": "WORK HISTORY",
+    "home_text": null,
+    "summary": "<ul>\r\n<li>\r\n<h2>SERVICE RENDERED</h2>\r\n</li>\r\n<li>Since 2018 &ndash; Present: SGL has been providing Deepwater Project Management Services to Eco Atlantic Oil and Gas Ghana Limited. This includes generation of the requisite documentation and management systems for planning of an upcoming exploration programme.</li>\r\n<li>Soluserv has the capacity to support companies with the preparation of detailed Well Operations documents, that is, Well Operations Policy Documents, Well Operations manuals, recommended practices, drilling programmes, detailed procedure for drilling operations, etc. Drilling manuals and procedures can be developed for clients upon request. Furthermore, the company is committed to developing local skills, recruiting and training Ghanaian engineers in the technical areas, and transferring sufficient knowledge and technical know-how, such that a high level of expertise can be achieved in the industry.</li>\r\n<li>SGL provides Custody Transfer Inspection Services in respect of crude oil cargo handling as well as Subsea Sampling Validation and Transfer Services in respect of custody transfer and processing for Tullow&rsquo;s TEN and JUBILEE Fields.</li>\r\n<li>Soluserv has provided Third Party Inspector (TPI) services in Takoradi for Foxtrot International. This involves the inspection of completion equipment (permanent and downhole service tools) to confirm it is fit for purpose/has not incurred damage during shipping and transit process. The TPI then witnesses the makeup and test (torque and pressure testing etc.) of all assemblies and service tools as per the relevant service company&rsquo;s Service Quality Plan (SCP). The QA/QC support involves the inspection and witnessing of workshop preparation and testing of completion equipment at the Baker Hughes base in Takoradi. The completion tools once assembled and tested were then transferred to Abidjan for onward shipment of the equipment offshore. The TPI ensures the cargo carriers were fit for purpose and certified with minimum 6 months before expiration.</li>\r\n<li>Soluserv in recent past performed for Foxtrot international, survey of liquid Mud Plants (LMP) of Halliburton and Schlumberger as well as inspections of their respective warehousing, cementing storage plants and mud and cementing laboratories.</li>\r\n<li class=\"mb-1\">Soluserv has been awarded a contract by ENI to undertake &ldquo;Quality Surveillance and Inspection Services on Well Operations Materials, Services and relevant Tools and Equipment&rdquo;. The service comprises the following:</li>\r\n</ul>\r\n<ul style=\"list-style-type: circle;\">\r\n<li>Ensuring Company&rsquo;s Contractors performances for compliance to applicable international standards and Company&rsquo;s Contractor QC plan and Company contractual requirements.</li>\r\n<li>Organizing, supervising and tracking the readiness of rotary down-hole tools and its related equipment.</li>\r\n<li>Serving as a consistent QC enforcement presence working at the front lines such as vendor shops and rig site.</li>\r\n</ul>\r\n<ul>\r\n<li class=\"mb-1\">The specific tools and equipment subject to inspection surveillance, assembly, function testingand repair as applicable include but not limited to:</li>\r\n</ul>\r\n<ul style=\"list-style-type: circle;\">\r\n<li>Equipment in Company Warehouse (Wellhead, Casing/Tubing, Completion accessories etc.)</li>\r\n<li>Rental Equipment / Specialty Tools (MWD, LWD, jars, downhole motors, hangers, etc.)</li>\r\n<li>Drill pipe, HWDP, Drill Collars, and other various rig-owned BHA</li>\r\n<li>Handling Equipment</li>\r\n<li>Cementing Equipment</li>\r\n<li>Upper and Lower Completion Running tools</li>\r\n<li>Landing String</li>\r\n<li>Casing and Tubing (as applicable during the manufacturing/refurbishment process).</li>\r\n<li>Coring Equipment</li>\r\n<li>Well Testing Equipment.</li>\r\n<li>Frac equipment</li>\r\n<li>Any others tools to be run in hole.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</li>\r\n</ul>",
+    "image": "gallery_images/careers-bc.png",
+    "unique_name": "work_history",
+    "background_color": "#0a315e",
+    "text_color": "#ffffff",
+    "order_id": 0,
+    "featured": false,
+    "created": "2023-08-25T17:59:28Z"
+  }
+},
+{
+  "model": "index.servicesmedia",
+  "pk": 1,
+  "fields": {
+    "service": 3,
+    "logo": "services_media/dw-tools.png",
+    "title": "dw-tools",
+    "content": "<p>Market leader in Downhole Products designs, manufactures and supplies a range of casing accessories, completion tools, including centralizers, reamer guide shoes and cable clamp protectors. DHP Ltd is based in Aberdeen, Scotland. please visit their&nbsp;<a href=\"https://www.varel.com/\" target=\"_blank\" rel=\"noopener\">website</a>.</p>",
+    "image": "services_media/dh-tools.png",
+    "order_id": 0,
+    "created": "2023-09-06T13:40:05Z"
+  }
+},
+{
+  "model": "index.servicesmedia",
+  "pk": 2,
+  "fields": {
+    "service": 3,
+    "logo": "services_media/varel.png",
+    "title": "Varel",
+    "content": "<p>In collaboration with Varel Europe SAS, SOLUSERV (GH) LIMITED supplies drill bits and drilling optimization support services. Varel is based in Pau, France. To read more, please visit their&nbsp;<a href=\"https://www.varel.com/\" target=\"_blank\" rel=\"noopener\">website</a>.</p>",
+    "image": "services_media/og-tools.png",
+    "order_id": 0,
+    "created": "2023-09-07T14:04:23Z"
+  }
+},
+{
+  "model": "index.servicesmedia",
+  "pk": 3,
+  "fields": {
+    "service": 3,
+    "logo": "services_media/wwt_JaxtMfR.png",
+    "title": "wwt",
+    "content": "<p>Provision of non-rotating protectors (NRP) for the reduction of rotating torque and drag, casing and riser protection during directional, extended reach, side tracking and deep-water drilling operations. To read more, please visit their&nbsp;<a href=\"../../../../services\">website</a>.</p>",
+    "image": "services_media/dw-tools-2.png",
+    "order_id": 0,
+    "created": "2023-09-07T14:07:41Z"
+  }
+},
+{
+  "model": "index.servicesmedia",
+  "pk": 4,
+  "fields": {
+    "service": 3,
+    "logo": "services_media/saturm_Nl0QcPv.png",
+    "title": "Stratum",
+    "content": "<p>Soluserv (GH) Ltd in collaboration with Stratum Reservoir is able to perform rock &amp; fluid analysis as well as drill cuttings analysis for companies.</p>",
+    "image": "",
+    "order_id": 0,
+    "created": "2023-09-07T14:09:02Z"
+  }
+},
+{
+  "model": "index.servicesmedia",
+  "pk": 5,
+  "fields": {
+    "service": 3,
+    "logo": "services_media/ten.png",
+    "title": "Tendeka",
+    "content": "<p>Soluserv (GH) Ltd in collaboration with Stratum Reservoir is able to perform rock &amp; fluid analysis as well as drill cuttings analysis for companies.</p>",
+    "image": "",
+    "order_id": 0,
+    "created": "2023-09-07T14:09:35Z"
+  }
+},
+{
+  "model": "index.capabilities",
+  "pk": 1,
+  "fields": {
+    "title": "Offshore, Onshore Well Engineering and Operations Management",
+    "created": "2023-08-24T19:00:36.515Z"
+  }
+},
+{
+  "model": "index.capabilities",
+  "pk": 2,
+  "fields": {
+    "title": "Provision of Oilfield Tools Rental as well as Workshop",
+    "created": "2023-08-24T19:00:36.515Z"
+  }
+},
+{
+  "model": "index.capabilities",
+  "pk": 3,
+  "fields": {
+    "title": "Liaison with Governmental and Regulatory Bodies",
+    "created": "2023-08-24T19:00:36.515Z"
+  }
+},
+{
+  "model": "index.servicesrendered",
+  "pk": 8,
+  "fields": {
+    "title": "SERVICES RENDERED",
+    "description": "<p>Since 2018 &ndash; Present: SGL has been providing Deepwater Project Management Services to Eco Atlantic Oil and Gas Ghana Limited. This includes generation of the requisite documentation and management systems for planning of an upcoming exploration programme.</p>\r\n<p>Soluserv has the capacity to support companies with the preparation of detailed Well Operations documents, that is, Well Operations Policy Documents, Well Operations manuals, recommended practices, drilling programmes, detailed procedure for drilling operations, etc. Drilling manuals and procedures can be developed for clients upon request. Furthermore, the company is committed to developing local skills, recruiting and training Ghanaian engineers in the technical areas, and transferring sufficient knowledge and technical know-how, such that a high level of expertise can be achieved in the industry.</p>\r\n<p>SGL provides Custody Transfer Inspection Services in respect of crude oil cargo handling as well as Subsea Sampling Validation and Transfer Services in respect of custody transfer and processing for Tullow&rsquo;s TEN and JUBILEE Fields.</p>\r\n<p>Soluserv has provided Third Party Inspector (TPI) services in Takoradi for Foxtrot International. This involves the inspection of completion equipment (permanent and downhole service tools) to confirm it is fit for purpose/has not incurred damage during shipping and transit process. The TPI then witnesses the makeup and test (torque and pressure testing etc.) of all assemblies and service tools as per the relevant service company&rsquo;s Service Quality Plan (SCP). The QA/QC support involves the inspection and witnessing of workshop preparation and testing of completion equipment at the Baker Hughes base in Takoradi. The completion tools once assembled and tested were then transferred to Abidjan for onward shipment of the equipment offshore. The TPI ensures the cargo carriers were fit for purpose and certified with minimum 6 months before expiration.</p>\r\n<p>Soluserv in recent past performed for Foxtrot international, survey of liquid Mud Plants (LMP) of Halliburton and Schlumberger as well as inspections of their respective warehousing, cementing storage plants and mud and cementing laboratories.</p>\r\n<p class=\"mb-1\">Soluserv has been awarded a contract by ENI to undertake &ldquo;Quality Surveillance and Inspection Services on Well Operations Materials, Services and relevant Tools and Equipment&rdquo;. The service comprises the following:</p>\r\n<ul class=\"ml-5\">\r\n<li>Ensuring Company&rsquo;s Contractors performances for compliance to applicable international standards and Company&rsquo;s Contractor QC plan and Company contractual requirements.</li>\r\n<li>Organizing, supervising and tracking the readiness of rotary down-hole tools and its related equipment.</li>\r\n<li>Serving as a consistent QC enforcement presence working at the front lines such as vendor shops and rig site.</li>\r\n</ul>\r\n<p>&nbsp;</p>\r\n<p class=\"mb-1\">The specific tools and equipment subject to inspection surveillance, assembly, function testingand repair as applicable include but not limited to:</p>\r\n<ul class=\"ml-5\">\r\n<li>Equipment in Company Warehouse (Wellhead, Casing/Tubing, Completion accessories etc.)</li>\r\n<li>Rental Equipment / Specialty Tools (MWD, LWD, jars, downhole motors, hangers, etc.)</li>\r\n<li>Drill pipe, HWDP, Drill Collars, and other various rig-owned BHA</li>\r\n<li>Handling Equipment</li>\r\n<li>Cementing Equipment</li>\r\n<li>Upper and Lower Completion Running tools</li>\r\n<li>Landing String</li>\r\n<li>Casing and Tubing (as applicable during the manufacturing/refurbishment process).</li>\r\n<li>Coring Equipment</li>\r\n<li>Well Testing Equipment.</li>\r\n<li>Frac equipment</li>\r\n<li>Any others tools to be run in hole.</li>\r\n</ul>",
+    "created": "2023-09-13T15:46:07Z"
+  }
+},
+{
+  "model": "index.partnerstext",
+  "pk": 1,
+  "fields": {
+    "title": "JOINT VENTURE WITH SGS GHANA LIMITED",
+    "summary": "Soluserv (GH) Ltd. is in a Joint Venture (JV) partnership with SGS Ghana Limited (SGS Soluserv limited) to provide laboratory analytical services of samples, minerals services and environmental sampling support to the Mining sector in Ghana. The JV also provides technical support with regards to other types of environmental samples such as soil, noise, vegetation, agricultural crops, fish and air quality monitoring filters.",
+    "created": "2023-08-24T19:00:36.580Z"
+  }
+},
+{
+  "model": "index.partnerstext",
+  "pk": 2,
+  "fields": {
+    "title": "STRATUM RESERVOIR",
+    "summary": "Soluserv (GH) Ltd in collaboration with Stratum Reservoir is able to perform rock & fluid analysis as well as drill cuttings analysis for companies.",
+    "created": "2023-08-24T19:00:36.580Z"
+  }
+},
+{
+  "model": "index.partnerstext",
+  "pk": 3,
+  "fields": {
+    "title": "TENDEKA",
+    "summary": "SGL is in Collaboration with Tendeka for the provision of Intelligent Completion Tools as well as support companies with Dynamic Downhole Reservoir Management System.",
+    "created": "2023-08-24T19:00:36.580Z"
+  }
+},
+{
+  "model": "index.productsupplied",
+  "pk": 6,
+  "fields": {
+    "title": "PRODUCTS SUPPLIED",
+    "description": "<ul>\r\n<li>DRILLING BITS: SGL collaborates with Varel International for the provision of all types and sizes of Varel drilling bits in country.</li>\r\n</ul>\r\n<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;- PDC Bits</p>\r\n<p style=\"padding-left: 40px;\">- Tricone Bits</p>\r\n<p style=\"padding-left: 40px;\">- Under - Reamers</p>\r\n<p style=\"padding-left: 40px;\">- Geomechanical Studies</p>\r\n<p style=\"padding-left: 40px;\">- Drilling Optimization Support Services</p>\r\n<ul>\r\n<li>CASING ACCESSORIES<br />SGL collaborates with Down Hole Products (DHP) to supply various types and sizes of casing accessories:</li>\r\n</ul>\r\n<p style=\"padding-left: 40px;\">- Casing Centralizers</p>\r\n<p style=\"padding-left: 40px;\">- Float Collars</p>\r\n<p style=\"padding-left: 40px;\">- Casing/Liner Pilot Guide and Reamer Shoes &amp; Tubular Cable Clamps</p>\r\n<p style=\"padding-left: 40px;\">- Centralizer Placement software simulations including torque and drag</p>\r\n<ul class=\"ml-4\">\r\n<li>PHYSICAL ADDRESS<br />No.6 Agbon Boi Street, Bubuishie, Accra. Digital Address: GA-311-9991</li>\r\n</ul>\r\n<ul>\r\n<li>BUSINESS REGISTRATION NUMBER<br />C0004672003</li>\r\n<li>REFERENCE CLIENTS<br />Tullow Ghana Limited, ENI Ghana E&amp;P, Springfield E&amp;P, Hess Ghana Ltd., Ophir Ghana Ltd., Amni, Eco Altantic Ghana Ltd. and SGS Ghana Ltd</li>\r\n</ul>",
+    "created": "2023-09-13T15:52:42Z"
+  }
+},
+{
+  "model": "index.experience",
+  "pk": 6,
+  "fields": {
+    "title": "DESCRIPTION AND EXPERIENCE OF TEAM",
+    "description": "<p>The current SOLUSERV (GH) LIMITED management, with one working director, and two support directors as well as a highly experienced team of permanent and temporary + ad hoc staff are able to offer round the clock response to clients’ requirements.  \r\nThe company is led by qualified and experienced well operations and engineering professionals with the requisite skills to suit the modern, demanding and highly technical Oil & Gas Industry.\r\nOur know-how has been gained through intensive training and experience with Major Operators as wells as Major Service Companies operating in the North Sea, North Africa, West Africa and Countries of the Former Soviet Union including Russia and Kazakhstan.\r\nThe company has built capacity, with the development of a robust Well Operations Management System, Safety Management System and Quality Control and Assurance System\r\n</p>\r\n<p>Our personnel have had involvement with a wide spectrum of offshore (deepwater activities inclusive) and onshore activities for major independent operators and service companies. This has enabled us to be able to develop a variety of services including:\r\n•\tProject Management\r\n•\tManagement of Offshore and Onshore Well Engineering and Operations\r\n•\tLiaison with Governmental and Regulatory bodies, Ghana National Petroleum Corporation, Ministry of Energy, Ministry of Environment, Science and Technology, Ministry of Health, Ghana Atomic Energy Commission etc.\r\n</p>\r\n<p>Drilling Engineering is one of our core businesses, with core competencies in:\r\n•\tWell Operations Management, both office and rig-site based, with extensive experience in the North Sea, North Africa, Former Soviet Union and other international locations.\r\n•\tWell Planning and Design assisted by a variety of industry recognised planning software.\r\n•\tComplex Well Planning; including ERD, Deep and Ultra-deep well planning, Multi-Lateral, Slimhole and Thru-Tubing, and wells with high H2S and high CO2 (Risk Assessment, HAZID, QRA, Peer-Assist and Engineering Design)\r\n•\tPreparation of detailed Well Operations documents i.e. well operations manuals, recommended practices, drilling programmes, detailed procedure for drilling operations, etc.\r\n•\tWell Engineering Design, casing design, well profile generation for cost effective design, drilling hydraulics optimisation etc.\r\n•\tQuantitative Risk Assessment and Analysis (QRA) applications to Well Planning AFE Preparation and Implementation.  Tie-In with Risk Assessment and HAZID.\r\n•\tDrilling Cuttings Re-Injection (CRI) Feasibility, Geomechanical Modelling, Well Engineering, Equipment installation and Process Implementation.\r\n</p>\r\n<p>•\tSoluserv provides Well Integrity Management, including Well Examination Services as an Independent Competent auditor.\r\n•\tSoluserv provides an independent, knowledgeable and practical technical input to review processes, and ensuring that the objectives of the procedure are achieved. This involves Quantitative risk assessment (QRA) and uses fault tree analysis (FTA) and failure mode effect and criticality analysis (FMECA).\r\n•\tSoluserv provides “Peer-Reviewed” and “Peer-Assisted” engineering solutions to the drilling industry.\r\n•\tSoluserv provides the “PEER-ASSIST” process – providing experienced assistance at all stages, giving assistance to optimise the well design, planning and rig operations.\r\n•\tSoluserv provides contract or consultancy drilling and well servicing manpower. The service is specifically adapted to meet the needs of the independent contractor, as well as those of the client.  Provision of marine & engineering staff in both onshore and offshore support to various offshore construction and development projects.  Integrity and reliability is our aim.\r\n•\tSoluserv can provide quality engineering, using an array of industry recognised software.\r\n•\tSoluserv can undertake complete Wells Project Management right from conception through to detailed design, QRA budgeting exercises, programming and operations supervision for offshore and onshore operations.\r\n•\tDrilling rig inspection services and selection\r\n•\tDrilling equipment inspection services including tubular and surface equipment NDT etc.\r\n•\tProvision of navigation services\r\n•\tTechnical and Operational Documentation\r\n</p>\r\n<p>Soluserv currently provides fabrication works and services to the mining industry in Ghana, from our base in Sekondi. The provision of oilfield tools rental as well as workshop, welding and inspection services forms part of the company’s future plans.  Soluserv has acquired 4.31 acres of land, currently under development, at Shama, 20minutes drive from Takoradi for this purpose.  \r\n</p>",
+    "created": "2023-09-13T15:48:16Z"
+  }
+},
+{
+  "model": "index.weds",
+  "pk": 1,
+  "fields": {
+    "title": "WELL ENGINEERING & DRILLING SERVICES",
+    "description": "<p>SOLUSERV (GH) LIMITED have two areas of operation. These are Drilling, Completions and Production Engineering Services and Drilling and Completions Equipment Sales and Rentals Services. Our personnel have extensive experience in</p>\r\n<ul>\r\n<li>Well Planning and Design assisted by a variety of industry recognized planning software including Landmark Drilling Engineering suite &ndash; Wellplan; StressCheck; Casing Seat and Wellcat;</li>\r\n<li>Complex Well Planning including: ERD; Managed Pressure Drilling; HPHT; Deep and Ultra-deep well planning, Multi-Lateral, Slimhole and Thru-Tubing, and wells with high H2S and high CO2 -- Advanced Casing Design; Drillstring Design and Optimization.</li>\r\n<li>Risk Assessment, HAZID, Peer-Assist and Quantitative Risk Assessment and Analysis (QRA) applications to Well Planning AFE Preparation and Implementation.</li>\r\n<li>Drilling Cuttings Re-Injection (CRI) Feasibility, Geomechanical Modelling, Well Engineering, Equipment installation and Process Implementation. We also provides &ldquo;Peer-Reviewed&rdquo; and &ldquo;Peer-Assisted&rdquo; engineering solutions &ndash; providing experienced assistance at all stages, giving assistance to optimize the well design, planning and rig operations.</li>\r\n</ul>",
+    "created": "2023-08-24T19:00:36Z"
+  }
+},
+{
+  "model": "index.weds",
+  "pk": 2,
+  "fields": {
+    "title": "WELLS AND DRILLING STUDIES",
+    "description": "SOLUSERV (GH) LIMITED has experienced personnel competent to support clients to perform Independent studies for Conceptual, Front End Engineering Design (FEED) and Operational Engineering.",
+    "created": "2023-08-24T19:00:36.617Z"
+  }
+},
+{
+  "model": "index.wsps",
+  "pk": 1,
+  "fields": {
+    "title": "WELL SERVICES & PRODUCTION SERVICES",
+    "description": "<p>SOLUSERV (GH) LIMITED, using in-house personnel can manage all aspects of organizing drilling and field development operations and project management.<br /><br />We provide expertise in</p>\r\n<ul>\r\n<li>Our personnel have extensive experience in</li>\r\n</ul>\r\n<p>&nbsp; &nbsp; -- Well Planning and Design assisted by a variety of industry recognized planning software including Landmark Drilling Engineering suite &ndash; Wellplan; StressCheck; Casing Seat and Wellcat;</p>\r\n<p>&nbsp; &nbsp; -- Complex Well Planning including: ERD; Managed Pressure Drilling; HPHT; Deep and Ultra-deep well planning, Multi-Lateral, Slimhole and Thru-Tubing, and wells with high H2S and high CO2</p>\r\n<p>&nbsp; &nbsp; -- Advanced Casing Design; Drillstring Design and Optimization.</p>\r\n<p>&nbsp; &nbsp; -- Risk Assessment, HAZID, Peer-Assist and Quantitative Risk Assessment and Analysis (QRA) applications to Well Planning AFE Preparation and Implementation.</p>\r\n<p>&nbsp; &nbsp; -- Drilling Cuttings Re-Injection (CRI) Feasibility, Geomechanical Modelling, Well Engineering, Equipment installation and Process Implementation.</p>\r\n<ul>\r\n<li>We also provides &ldquo;Peer-Reviewed&rdquo; and &ldquo;Peer-Assisted&rdquo; engineering solutions &ndash; providing experienced assistance at all stages, giving assistance to optimize the well design, planning and rig operations.</li>\r\n</ul>\r\n<p>SOLUSERV (GH) LIMITED is able to provide contract or consultancy drilling and well servicing manpower. The service is specifically adapted to meet the needs of the independent contractor, as well as those of the client. Provision of marine &amp; engineering staff in both onshore and offshore support to various offshore construction and development projects. Integrity and reliability is our aim.<br /><br />Our personnel functions are both office and rig-site based, with extensive experience in the North Sea, North Africa, Former Soviet Union and other international locations.</p>",
+    "created": "2023-08-25T12:00:01Z"
+  }
+},
+{
+  "model": "index.career",
+  "pk": 2,
+  "fields": {
+    "identifier": "b1030147-5d88-43be-8cf0-f5e0d06cc6a1",
+    "job_title": "Senior Developer",
+    "job_type": "Full-time",
+    "job_location": "Remote",
+    "experience_level": "Admin",
+    "job_summary": "We are looking for a senior-level manager to join out team.",
+    "job_requirement": "<p><strong>Skills and Experience</strong></p>\r\n<ul>\r\n<li>Demonstrated experience as a QA Engineer or a related role.</li>\r\n<li>Profound knowledge of software QA methodologies, tools, and procedures.</li>\r\n<li>Proficiency in creating clear and comprehensive test plans and test cases.</li>\r\n<li>Practical experience with white box and black box testing.</li>\r\n<li>An innate understanding of UX principles, coupled with the skill to identify and communicate issues from a user's standpoint.</li>\r\n<li>Exceptional problem-solving acumen and meticulous attention to detail.</li>\r\n<li>Stellar communication abilities.</li>\r\n<li>Familiarity with Agile methodologies and regression testing is advantageous.</li>\r\n<li><strong>Bonus:</strong>&nbsp;Experience in writing automated tests using Python or Typescript with Selenium.<br /><br /></li>\r\n</ul>\r\n<p><strong>Key Responsibilities</strong></p>\r\n<ul>\r\n<li>Design detailed, comprehensive, and well-structured test plans and test cases.</li>\r\n<li>Prioritize and organize testing activities for efficiency.</li>\r\n<li>Execute detailed manual functional testing of both new and existing features.</li>\r\n<li>Scrutinize the product's user interface and gauge the overall user experience, ensuring its alignment with top-notch UX principles.</li>\r\n<li>Detect, diligently document, and track any software bugs.</li>\r\n<li>Collaborate closely with the development team to ascertain that resolutions align with user expectations.</li>\r\n<li>Engage in product design assessments, offering insights on functional requirements, product designs, schedules, or possible challenges.</li>\r\n<li>Remain abreast of the latest in testing tools and strategies.</li>\r\n</ul>",
+    "created": "2023-08-24T19:00:36Z"
+  }
+},
+{
+  "model": "index.career",
+  "pk": 3,
+  "fields": {
+    "identifier": "b1030147-5d88-43be-8cf0-f5e0d06cc6a2",
+    "job_title": "Senior Manager",
+    "job_type": "Full-time",
+    "job_location": "On-site",
+    "experience_level": "Admin",
+    "job_summary": "We are looking for a senior-level manager to join out team",
+    "job_requirement": "<h3><strong>Responsibilities&nbsp;</strong></h3>\r\n<ul>\r\n<li>Build C-suite relationships with Invisible&rsquo;s most strategic clients</li>\r\n<li>Coordinate executive business reviews&nbsp;</li>\r\n<li>Maintain high customer satisfaction (CSAT levels)&nbsp;</li>\r\n<li>Grow and manage pipeline of business, from generating new leads at existing client to negotiating and closing commercial opportunities&nbsp;</li>\r\n<li>Closely collaborates with internal stakeholders (product, technology, operations, marketing, and leadership) to develop solutions to meet your clients&rsquo; needs</li>\r\n<li>Lead account planning process, bringing together cross-functional stakeholders&nbsp;</li>\r\n</ul>\r\n<h3><strong>Experience&nbsp;</strong></h3>\r\n<ul>\r\n<li>Strong executive presence, and track record of earning trust from C-suite executives at Fortune 500 companies&nbsp;</li>\r\n<li>Strong written and verbal communication, and experience presenting to senior executives and board members&nbsp;</li>\r\n<li>Operate with a high degree of autonomy&nbsp;</li>\r\n<li>History of executing complex deals with large enterprises (&gt;10M ARR), using a consultative sales approach&nbsp;&nbsp;</li>\r\n<li>12+ years of experience in quota-carrying sales and account management roles at Managed Services, Professional Services, or SaaS companies</li>\r\n<li>Working in highly technical environments, with experience selling AI solutions</li>\r\n</ul>",
+    "created": "2023-08-24T19:00:36Z"
+  }
+},
+{
+  "model": "index.career",
+  "pk": 4,
+  "fields": {
+    "identifier": "b1030147-5d88-43be-8cf0-f5e0d06cc6a3",
+    "job_title": "Junior Programmer",
+    "job_type": "Part-time",
+    "job_location": "Remote",
+    "experience_level": "Expert",
+    "job_summary": "We are looking for a senior-level manager to join out team",
+    "job_requirement": "<div><strong>Requirements</strong></div>\r\n<ul>\r\n<li>You have significant experience developing applications in remote team environments. Our team spans the globe, and requires excellent communication and teamwork to succeed.</li>\r\n<li>You are able to work with Product Managers to develop technical specifications for large projects with complex scope, then disseminate those requirements to your teammates.&nbsp;</li>\r\n<li>You can write documentation! You will need to research and synthesize new technologies (frameworks, libraries, techniques) and explain and evangelize them to other engineers on a regular basis.</li>\r\n<li>You have strong experience in React, NextJS, GraphQL, and Material-UI. You should be comfortable enough to weigh the pros and cons of each of the frameworks, and incorporate that into your code.</li>\r\n<li>You understand when to trade off build vs buy for JS code. You should have an in-depth understanding of the vanilla-power behind HTML and JS, and when to apply it in React.</li>\r\n<li>You have a love for building stable and secure applications. Experience with monitoring tools, security best practices, and performance implications on the frontend is a must.</li>\r\n</ul>",
+    "created": "2023-08-24T19:00:36Z"
+  }
+},
+{
+  "model": "index.careerdetail",
+  "pk": 1,
+  "fields": {
+    "first_name": "Marcus",
+    "last_name": "Manuel",
+    "email": "amankrah41@gmail.com",
+    "phone": "0544617067",
+    "file": "job_applications/1280_0.pdf",
+    "message": "Testing applications",
+    "created": "2023-09-08T07:42:04.575Z"
+  }
+},
+{
+  "model": "index.careerdetail",
+  "pk": 2,
+  "fields": {
+    "first_name": "David",
+    "last_name": "Lartey",
+    "email": "larteydavid59@gmail.com",
+    "phone": "0242065081",
+    "file": "job_applications/1280_0_FA4xSfJ.pdf",
+    "message": "Application testing",
+    "created": "2023-09-08T09:50:28.470Z"
+  }
+},
+{
+  "model": "index.careerdetail",
+  "pk": 3,
+  "fields": {
+    "first_name": "David",
+    "last_name": "Lartey",
+    "email": "larteydavid59@gmail.com",
+    "phone": "0242065081",
+    "file": "job_applications/1280_0_5YN99jl.pdf",
+    "message": "lksdj",
+    "created": "2023-09-08T09:52:05.907Z"
+  }
+},
+{
+  "model": "index.careerdetail",
+  "pk": 4,
+  "fields": {
+    "first_name": "David",
+    "last_name": "Lartey",
+    "email": "larteydavid59@gmail.com",
+    "phone": "0242065081",
+    "file": "job_applications/1280_0_GbUuKnp.pdf",
+    "message": "lk",
+    "created": "2023-09-08T10:01:55.694Z"
+  }
+},
+{
+  "model": "index.careerdetail",
+  "pk": 5,
+  "fields": {
+    "first_name": "David",
+    "last_name": "Lartey",
+    "email": "larteydavid59@gmail.com",
+    "phone": "0242065081",
+    "file": "job_applications/1280_0_pwDnlhq.pdf",
+    "message": "lkc",
+    "created": "2023-09-08T10:03:40.927Z"
+  }
+},
+{
+  "model": "index.careerdetail",
+  "pk": 6,
+  "fields": {
+    "first_name": "David",
+    "last_name": "Lartey",
+    "email": "larteydavid59@gmail.com",
+    "phone": "0242065081",
+    "file": "job_applications/1280_0_Obw9dB9.pdf",
+    "message": "j",
+    "created": "2023-09-08T10:09:36.508Z"
+  }
+},
+{
+  "model": "index.careerdetail",
+  "pk": 7,
+  "fields": {
+    "first_name": "Marcus",
+    "last_name": "Manuel",
+    "email": "larteydavid59@gmail.com",
+    "phone": "0242065081",
+    "file": "job_applications/1280_0_ycy4XA8.pdf",
+    "message": "kjh",
+    "created": "2023-09-08T10:10:36.205Z"
+  }
+},
+{
+  "model": "index.careerdetail",
+  "pk": 8,
+  "fields": {
+    "first_name": "lksd",
+    "last_name": "lsfkl",
+    "email": "lsdkfjl@lkdj.com",
+    "phone": "23948734879",
+    "file": "job_applications/Peer_Coaching_Script.pdf",
+    "message": "klsdfjioweokld",
+    "created": "2023-09-08T12:26:53.735Z"
+  }
+},
+{
+  "model": "index.careerdetail",
+  "pk": 9,
+  "fields": {
+    "first_name": "Marcus",
+    "last_name": "Manuel",
+    "email": "amankrah41@gmail.com",
+    "phone": "0544617067",
+    "file": "job_applications/Peer_Coaching_Script_O7Qvthc.pdf",
+    "message": "s;dfjkjalksdjfoaeislfjkalsdkfjl",
+    "created": "2023-09-11T16:39:04.433Z"
+  }
+},
+{
+  "model": "index.careerdetail",
+  "pk": 10,
+  "fields": {
+    "first_name": "David",
+    "last_name": "Lartey",
+    "email": "larteydavid59@gmail.com",
+    "phone": "0242065081",
+    "file": "job_applications/CHURCH_DECOR_FOR_PATRICK_AND_BEATRICE_NEW.pdf",
+    "message": "jgkuyvjy",
+    "created": "2023-09-13T19:28:11.452Z"
+  }
+},
+{
+  "model": "index.careerdetail",
+  "pk": 11,
+  "fields": {
+    "first_name": "Marcus",
+    "last_name": "Manuel",
+    "email": "amankrah41@gmail.com",
+    "phone": "0544617067",
+    "file": "job_applications/CHURCH_DECOR_FOR_PATRICK_AND_BEATRICE_NEW_kZrVQNS.pdf",
+    "message": "sdfgbdfg",
+    "created": "2023-09-13T19:31:13.406Z"
+  }
+},
+{
+  "model": "index.careerdetail",
+  "pk": 12,
+  "fields": {
+    "first_name": "Marcus",
+    "last_name": "Manuel",
+    "email": "amankrah41@gmail.com",
+    "phone": "0544617067",
+    "file": "job_applications/CHURCH_DECOR_FOR_PATRICK_AND_BEATRICE_NEW_CGVChOm.pdf",
+    "message": "xvdsfzdv",
+    "created": "2023-09-13T19:38:35.295Z"
+  }
+},
+{
+  "model": "index.careerdetail",
+  "pk": 13,
+  "fields": {
+    "first_name": "Marcus",
+    "last_name": "Manuel",
+    "email": "larteydavid59@gmail.com",
+    "phone": "0242065081",
+    "file": "job_applications/CHURCH_DECOR_FOR_PATRICK_AND_BEATRICE_NEW_Odk6pIa.pdf",
+    "message": "sdfgjvhnmdgfn",
+    "created": "2023-09-13T19:42:46.247Z"
+  }
+},
+{
+  "model": "index.mediacategory",
+  "pk": 1,
+  "fields": {
+    "title": "FABRICATION",
+    "created": "2023-08-25T16:49:09Z"
+  }
+},
+{
+  "model": "index.mediacategory",
+  "pk": 2,
+  "fields": {
+    "title": "EVENTS & CONFERENCE",
+    "created": "2023-08-25T16:49:21Z"
+  }
+},
+{
+  "model": "index.media",
+  "pk": 1,
+  "fields": {
+    "category": 1,
+    "image": "media_images/SGL_Fabrication_website_1_resize_FSGixiQ.jpg",
+    "created": "2023-08-25T13:44:19Z"
+  }
+},
+{
+  "model": "index.media",
+  "pk": 2,
+  "fields": {
+    "category": 2,
+    "image": "media_images/repairs-1.jpg",
+    "created": "2023-08-25T13:46:29Z"
+  }
+},
+{
+  "model": "index.media",
+  "pk": 3,
+  "fields": {
+    "category": 1,
+    "image": "media_images/SGL_Fabrication_website_6_resize.jpg",
+    "created": "2023-08-25T16:52:00Z"
+  }
+},
+{
+  "model": "index.media",
+  "pk": 4,
+  "fields": {
+    "category": 1,
+    "image": "media_images/SGL_Fabrication_website_2_resize.jpg",
+    "created": "2023-08-25T16:52:12Z"
+  }
+},
+{
+  "model": "index.media",
+  "pk": 5,
+  "fields": {
+    "category": 1,
+    "image": "media_images/SGL_Fabrication_website_7_A9c5X4E.jpg",
+    "created": "2023-08-25T16:52:23Z"
+  }
+},
+{
+  "model": "index.media",
+  "pk": 6,
+  "fields": {
+    "category": 2,
+    "image": "media_images/repairs-2_kAF7nvJ.jpg",
+    "created": "2023-08-25T16:52:49Z"
+  }
+},
+{
+  "model": "index.media",
+  "pk": 7,
+  "fields": {
+    "category": 2,
+    "image": "media_images/repairs-3_65wUWKH.jpg",
+    "created": "2023-08-25T16:53:13Z"
+  }
+},
+{
+  "model": "index.media",
+  "pk": 8,
+  "fields": {
+    "category": 2,
+    "image": "media_images/construction-2_yUxFuk0.jpg",
+    "created": "2023-08-25T16:53:27Z"
+  }
+},
+{
+  "model": "index.contact",
+  "pk": 1,
+  "fields": {
+    "full_name": "David Lartey",
+    "email": "larteydavid59@gmail.com",
+    "subject": "testing",
+    "message": "Successful"
+  }
+},
+{
+  "model": "index.contact",
+  "pk": 2,
+  "fields": {
+    "full_name": "Downhole Products",
+    "email": "amankrah41@gmail.com",
+    "subject": "testing",
+    "message": "Successful"
+  }
+},
+{
+  "model": "index.contact",
+  "pk": 3,
+  "fields": {
+    "full_name": "Bangalore",
+    "email": "amankrah41@gmail.com",
+    "subject": "testing",
+    "message": "Success"
+  }
+},
+{
+  "model": "index.contact",
+  "pk": 4,
+  "fields": {
+    "full_name": "Marcus Garvey",
+    "email": "macaj23074@fulwark.com",
+    "subject": "testing",
+    "message": "Success"
+  }
+},
+{
+  "model": "index.contact",
+  "pk": 5,
+  "fields": {
+    "full_name": "Marcus Garvey",
+    "email": "kaxof40017@snowlash.com",
+    "subject": "testing",
+    "message": "green"
+  }
+},
+{
+  "model": "index.contact",
+  "pk": 6,
+  "fields": {
+    "full_name": "dlskfj",
+    "email": "favini3573@inkiny.com",
+    "subject": "lsdkf",
+    "message": "lskdfjowi"
+  }
+},
+{
+  "model": "index.contact",
+  "pk": 7,
+  "fields": {
+    "full_name": "dlskfj",
+    "email": "larteydavid59@gmail.com",
+    "subject": "lsdkf",
+    "message": "sldjfomsi"
+  }
+},
+{
+  "model": "index.contact",
+  "pk": 8,
+  "fields": {
+    "full_name": "dlskfj",
+    "email": "larteydavid59@gmail.com",
+    "subject": "lkjl",
+    "message": "lsdjkfmoweifwoaejldk"
+  }
+},
+{
+  "model": "index.newsletter",
+  "pk": 1,
+  "fields": {
+    "email": "macaj23074@fulwark.com",
+    "active": true,
+    "created": "2023-09-08T11:49:27.414Z"
+  }
+},
+{
+  "model": "index.newsletter",
+  "pk": 2,
+  "fields": {
+    "email": "macaj23074@fulwark.com",
+    "active": true,
+    "created": "2023-09-08T11:55:25.216Z"
+  }
+},
+{
+  "model": "index.newsletter",
+  "pk": 3,
+  "fields": {
+    "email": "iamdecipher@gmail.com",
+    "active": true,
+    "created": "2023-09-08T11:57:04.119Z"
+  }
+},
+{
+  "model": "index.newsletter",
+  "pk": 4,
+  "fields": {
+    "email": "amankrah41@gmail.com",
+    "active": true,
+    "created": "2023-09-08T11:58:00.521Z"
+  }
+},
+{
+  "model": "index.newsletter",
+  "pk": 5,
+  "fields": {
+    "email": "davidlartey@growforme.com",
+    "active": true,
+    "created": "2023-09-08T11:59:25.094Z"
+  }
+},
+{
+  "model": "index.newsletter",
+  "pk": 6,
+  "fields": {
+    "email": "macaj23074@fulwark.com",
+    "active": true,
+    "created": "2023-09-08T12:00:14.138Z"
+  }
+},
+{
+  "model": "index.newsletter",
+  "pk": 7,
+  "fields": {
+    "email": "macaj23074@fulwark.com",
+    "active": true,
+    "created": "2023-09-08T12:01:29.048Z"
+  }
+},
+{
+  "model": "index.newsletter",
+  "pk": 8,
+  "fields": {
+    "email": "dave.k.lart@gmail.com",
+    "active": true,
+    "created": "2023-09-08T12:02:33.151Z"
+  }
+},
+{
+  "model": "index.newsletter",
+  "pk": 9,
+  "fields": {
+    "email": "dave.k.lart@gmail.com",
+    "active": true,
+    "created": "2023-09-08T12:03:06.412Z"
+  }
+},
+{
+  "model": "index.newsletter",
+  "pk": 10,
+  "fields": {
+    "email": "macaj23074@fulwark.com",
+    "active": true,
+    "created": "2023-09-08T12:03:40.455Z"
+  }
+},
+{
+  "model": "index.newsletter",
+  "pk": 11,
+  "fields": {
+    "email": "amankrah41@gmail.com",
+    "active": true,
+    "created": "2023-09-08T12:04:12.330Z"
+  }
+},
+{
+  "model": "index.newsletter",
+  "pk": 12,
+  "fields": {
+    "email": "dave.k.lart@gmail.com",
+    "active": true,
+    "created": "2023-09-08T12:04:56.706Z"
+  }
+},
+{
+  "model": "index.newsletter",
+  "pk": 13,
+  "fields": {
+    "email": "dave.k.lart@gmail.com",
+    "active": true,
+    "created": "2023-09-08T12:05:17.723Z"
+  }
+},
+{
+  "model": "index.newsletter",
+  "pk": 14,
+  "fields": {
+    "email": "davidlartey@growforme.com",
+    "active": true,
+    "created": "2023-09-08T12:05:53.849Z"
+  }
+},
+{
+  "model": "index.newsletter",
+  "pk": 15,
+  "fields": {
+    "email": "dave.k.lart@gmail.com",
+    "active": true,
+    "created": "2023-09-08T12:06:49.309Z"
+  }
+},
+{
+  "model": "index.newsletter",
+  "pk": 16,
+  "fields": {
+    "email": "iamdecipher@gmail.com",
+    "active": true,
+    "created": "2023-09-08T12:07:52.731Z"
+  }
+},
+{
+  "model": "index.newsletter",
+  "pk": 17,
+  "fields": {
+    "email": "dave.k.lart@gmail.com",
+    "active": true,
+    "created": "2023-09-08T12:09:05.128Z"
+  }
+},
+{
+  "model": "index.newsletter",
+  "pk": 18,
+  "fields": {
+    "email": "dave.k.lart@gmail.com",
+    "active": true,
+    "created": "2023-09-08T12:11:36.679Z"
+  }
+},
+{
+  "model": "index.newsletter",
+  "pk": 19,
+  "fields": {
+    "email": "davidlartey@growforme.com",
+    "active": true,
+    "created": "2023-09-08T12:13:18.494Z"
+  }
+},
+{
+  "model": "index.newsletter",
+  "pk": 20,
+  "fields": {
+    "email": "larteydavid59@gmail.com",
+    "active": true,
+    "created": "2023-09-08T12:26:04.696Z"
+  }
+},
+{
+  "model": "index.newsletter",
+  "pk": 21,
+  "fields": {
+    "email": "dave.k.lart@gmail.com",
+    "active": true,
+    "created": "2023-09-11T16:37:45.771Z"
+  }
+},
+{
+  "model": "index.newsletter",
+  "pk": 22,
+  "fields": {
+    "email": "macaj23074@fulwark.com",
+    "active": true,
+    "created": "2023-09-13T19:43:20.294Z"
+  }
+},
+{
+  "model": "index.newsletter",
+  "pk": 23,
+  "fields": {
+    "email": "amankrah41@gmail.com",
+    "active": true,
+    "created": "2023-09-13T19:48:36.473Z"
+  }
+}
+]
